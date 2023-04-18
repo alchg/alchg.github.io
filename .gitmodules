@@ -1,0 +1,3 @@
+[submodule "themes/simple-multipage"]
+	path = themes/simple-multipage
+	url = https://github.com/alchg/simple-multipage.git
