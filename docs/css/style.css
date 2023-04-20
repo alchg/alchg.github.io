@@ -1,0 +1,43 @@
+html {
+	background: silver;
+}
+body {
+	margin: 0px;
+}
+header {
+	position: fixed;
+	width: 100%;
+	height: 5%;
+	padding: 5px;
+	background: darkslateblue;
+}
+div#main {
+	display: flex;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+div#menu {
+	position: fixed;
+	width: 25%;
+	height: 80%;
+	padding: 10px;
+}
+div#content {
+	margin-left: 30%;
+	width: 100%;
+	padding: 10px;
+	background: palegoldenrod;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 5%;
+	padding: 5px;
+	background: darkslateblue;
+}
+a#light {
+	color: white;
+	font-size: x-large;
+}
+
