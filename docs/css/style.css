@@ -3,6 +3,7 @@ html {
 }
 body {
 	margin: 0px;
+	font-size: xx-large;
 }
 a#light {
 	color: white;
@@ -27,6 +28,9 @@ footer {
 	padding: 5px;
 }
 @media(min-width: 1024px){
+	body {
+		font-size: medium;
+	}
 	header {
 		position: fixed;
 		height: 5%;
@@ -40,6 +44,7 @@ footer {
 		position: fixed;
 		width: 25%;
 		height: 80%;
+		overflow: auto;
 	}
 	div#content {
 		margin-left: 27%;
