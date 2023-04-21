@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'simple-multipage'
 publishDir = 'docs'
+
+[params]
+twitter = '@sample'
