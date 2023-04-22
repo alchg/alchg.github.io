@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Top Page on My New Hugo Site</title>
-    <link>https://alchg.github.io/</link>
-    <description>Recent content in Top Page on My New Hugo Site</description>
+    <title>Extra Projects on My New Hugo Site</title>
+    <link>https://alchg.github.io/extra_projects/</link>
+    <description>Recent content in Extra Projects on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Apr 2023 14:33:16 +0900</lastBuildDate><atom:link href="https://alchg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Apr 2023 15:23:06 +0900</lastBuildDate><atom:link href="https://alchg.github.io/extra_projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Extra Project Sample2</title>
       <link>https://alchg.github.io/extra_projects/sample2/</link>
@@ -23,24 +23,6 @@
       
       <guid>https://alchg.github.io/extra_projects/sample1/</guid>
       <description>Extra Project Sample1 </description>
-    </item>
-    
-    <item>
-      <title>Project1</title>
-      <link>https://alchg.github.io/projects/sample/</link>
-      <pubDate>Wed, 19 Apr 2023 14:13:15 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/projects/sample/</guid>
-      <description>Project1 </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://alchg.github.io/about/</link>
-      <pubDate>Wed, 19 Apr 2023 13:04:54 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/about/</guid>
-      <description>Start End </description>
     </item>
     
   </channel>
