@@ -5,4 +5,4 @@ theme = 'simple-multipage'
 publishDir = 'docs'
 
 [params]
-twitter = '@sample'
+twitter_user = '@sample'
