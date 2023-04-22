@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="UTF-8">
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@sample" />
+	<meta property="og:title" content="Read Me" />
+	<meta property="og:description" content="How to use this." />
+	<meta property="og:image" content="https://alchg.github.io/twitter.png" />
+	<meta property="og:url" content="https://alchg.github.io/readme/" />
+	<title>Read Me</title>
+	<link rel="icon" href="/favicon.ico">
+	<link rel="stylesheet" href="/css/style.css">
+	<script src="/js/main.js"></script>
+</head>
+<body>
+
+	
+			
+	
+
+
+
+
+
+
+	
+		
+			
+		
+	
+
+
+<header>
+	<div><img src="/top.png"></div>
+	<div class="title"><a href="https://alchg.github.io/">My New Hugo Site</a></div>
+</header>
+<div id="main">
+		<div id="menu"><details id="side_menu">
+	<summary>PARTIALS MENU</summary>
+	<b>All</b>
+        
+        	<li><a href="/extra_projects/sample2/">Extra Project Sample2</a></li>
+        
+        	<li><a href="/extra_projects/">Extra Projects</a></li>
+        
+        	<li><a href="/">Top Page</a></li>
+        
+        	<li><a href="/extra_projects/sample1/">Extra Project Sample1</a></li>
+        
+        	<li><a href="/projects/sample/">Project1</a></li>
+        
+        	<li><a href="/projects/">Projects</a></li>
+        
+        	<li><a href="/readme/">Read Me</a></li>
+        
+        	<li><a href="/categories/">Categories</a></li>
+        
+        	<li><a href="/tags/">Tags</a></li>
+        
+	<b>Main</b>
+        
+		
+                	<li><a href="/readme/">Read Me</a></li>
+		
+        
+		
+                	<li><a href="/projects/sample/">Project1</a></li>
+		
+        
+		
+                	<li><a href="/extra_projects/">Extra Projects</a></li>
+		
+        
+		
+        
+		
+        
+		
+        
+		
+        
+		
+        
+		
+        
+</details>
+</div>
+        	<div id="content">
+			<h1>Read Me</h1>
+			<h3 id="first-of-all">First of all</h3>
+<p>+This text describes what you should do after creating a new site with hugo and applying the theme.</p>
+<h3 id="initial-setup">Initial Setup</h3>
+<p>Copy the entire contents of the directory sample_content to the content folder.</p>
+<h3 id="create-content-to-be-displayed-in-the-root-menu">Create content to be displayed in the root menu</h3>
+<p>+There are two methods.<br>
+1.Create it directly under the content folder.</p>
+<pre tabindex="0"><code>hugo new content/sample.md
+</code></pre><p>2.Create it in a subdirectory.</p>
+<pre tabindex="0"><code>hugo new content/projects/sample.md
+</code></pre><h3 id="create-an-extended-section">Create an extended section</h3>
+<p>1.Create default md file<br>
++Copy the file archetypes/extra_project.md to create, for example, sample_project.md.</p>
+<p>2.Create _index.md for the top page</p>
+<pre tabindex="0"><code>hugo new content/sample_project/_index.md
+</code></pre><p>3.Initialization of _index.md
++To display it in the main menu at the top of the site Set main_menu: true to display on the top page. Next, specify the position in the main menu with main_menu_order: 99. Specify the description if necessary.</p>
+<pre tabindex="0"><code>main_menu: true
+menu_order: 99
+description: &#34;Sample Description&#34;
+</code></pre><p>4.Prepare files for extended sections<br>
++Create the directory layouts/sample_project/ and copy the files from the directory layouts/extra_projects/.list.html and single.html.</p>
+<p>5.Create the contents of the extended section.</p>
+<pre tabindex="0"><code>hugo new content/sample_project/sample1.md
+</code></pre><p>+Also, change the configuration values in sample1.md as needed. For example, set menu_order: 10 for the menu order and description: &ldquo;Sample Description&rdquo; for the description.</p>
+<h3 id="end">End</h3>
+
+        	</div>
+	</div><footer>
+	Read Me
+</footer>
+</body>
+</html>

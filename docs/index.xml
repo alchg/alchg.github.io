@@ -35,12 +35,17 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://alchg.github.io/about/</link>
+      <title>Read Me</title>
+      <link>https://alchg.github.io/readme/</link>
       <pubDate>Wed, 19 Apr 2023 13:04:54 +0900</pubDate>
       
-      <guid>https://alchg.github.io/about/</guid>
-      <description>Start End </description>
+      <guid>https://alchg.github.io/readme/</guid>
+      <description>First of all +This text describes what you should do after creating a new site with hugo and applying the theme.
+Initial Setup Copy the entire contents of the directory sample_content to the content folder.
+Create content to be displayed in the root menu +There are two methods.
+1.Create it directly under the content folder.
+hugo new content/sample.md 2.Create it in a subdirectory.
+hugo new content/projects/sample.md Create an extended section 1.</description>
     </item>
     
   </channel>
