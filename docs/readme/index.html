@@ -88,30 +88,65 @@
         	<div id="content">
 			<h1>Read Me</h1>
 			<h3 id="first-of-all">First of all</h3>
-<p>+This text describes what you should do after creating a new site with hugo and applying the theme.</p>
+<ul>
+<li>This text describes what you should do after creating a new site with hugo and applying the theme.</li>
+</ul>
 <h3 id="initial-setup">Initial Setup</h3>
-<p>Copy the entire contents of the directory sample_content to the content folder.</p>
+<ul>
+<li>Copy the entire contents of the directory sample_content to the content folder.</li>
+</ul>
 <h3 id="create-content-to-be-displayed-in-the-root-menu">Create content to be displayed in the root menu</h3>
-<p>+There are two methods.<br>
-1.Create it directly under the content folder.</p>
-<pre tabindex="0"><code>hugo new content/sample.md
-</code></pre><p>2.Create it in a subdirectory.</p>
-<pre tabindex="0"><code>hugo new content/projects/sample.md
-</code></pre><h3 id="create-an-extended-section">Create an extended section</h3>
-<p>1.Create default md file<br>
-+Copy the file archetypes/extra_project.md to create, for example, sample_project.md.</p>
-<p>2.Create _index.md for the top page</p>
-<pre tabindex="0"><code>hugo new content/sample_project/_index.md
-</code></pre><p>3.Initialization of _index.md
-+To display it in the main menu at the top of the site Set main_menu: true to display on the top page. Next, specify the position in the main menu with main_menu_order: 99. Specify the description if necessary.</p>
-<pre tabindex="0"><code>main_menu: true
-menu_order: 99
-description: &#34;Sample Description&#34;
-</code></pre><p>4.Prepare files for extended sections<br>
-+Create the directory layouts/sample_project/ and copy the files from the directory layouts/extra_projects/.list.html and single.html.</p>
-<p>5.Create the contents of the extended section.</p>
-<pre tabindex="0"><code>hugo new content/sample_project/sample1.md
-</code></pre><p>+Also, change the configuration values in sample1.md as needed. For example, set menu_order: 10 for the menu order and description: &ldquo;Sample Description&rdquo; for the description.</p>
+<ul>
+<li>There are two methods.
+<ol>
+<li>Create it directly under the content folder.<br>
+<code>hugo new content/sample.md</code></li>
+<li>Create it in a subdirectory.<br>
+<code>hugo new content/projects/sample.md</code></li>
+</ol>
+</li>
+</ul>
+<h3 id="create-an-extended-section">Create an extended section</h3>
+<ol>
+<li>
+<p>Create default md file</p>
+<ul>
+<li>Copy the file archetypes/extra_project.md to create, for example, archetypes/sample_project.md.</li>
+</ul>
+</li>
+<li>
+<p>Create _index.md for the top page<br>
+<code>hugo new content/sample_project/_index.md</code></p>
+</li>
+<li>
+<p>Initialization of _index.md</p>
+<ul>
+<li>To display it in the main menu at the top of the site Set main_menu: true to display on the top page. Next, specify the position in the main menu with main_menu_order: 99. Specify the description if necessary.<br>
+<code>main_menu: true</code><br>
+<code>menu_order: 99</code><br>
+<code>description: &quot;Sample Description&quot;</code></li>
+</ul>
+</li>
+<li>
+<p>Prepare files for extended sections</p>
+<ul>
+<li>Create the directory layouts/sample_project/ and copy the files from the directory layouts/extra_projects/.list.html and single.html.</li>
+</ul>
+</li>
+<li>
+<p>Create the contents of the extended section.<br>
+<code>hugo new content/sample_project/sample1.md</code></p>
+<ul>
+<li>Also, change the configuration values in sample1.md as needed. For example, set menu_order: 10 for the menu order and description: &ldquo;Sample Description&rdquo; for the description.</li>
+</ul>
+</li>
+</ol>
+<h3 id="options">Options</h3>
+<ul>
+<li>Configuration for config.toml<br>
+<code>[params]</code><br>
+<code>twitter_user = '@sample'</code></li>
+</ul>
 <h3 id="end">End</h3>
 
         	</div>

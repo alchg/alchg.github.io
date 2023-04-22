@@ -30,6 +30,11 @@ div#content {
 	width: 100%;
 	padding: 10px;
 }
+code {
+	background: cadetblue;
+	color: lightyellow;
+	padding: 3px;
+}
 footer {
 	background: darkslateblue;
 	width: 100%;
