@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Top Page on My New Hugo Site</title>
-    <link>https://alchg.github.io/</link>
-    <description>Recent content in Top Page on My New Hugo Site</description>
+    <title>Blog on My New Hugo Site</title>
+    <link>https://alchg.github.io/blog/</link>
+    <description>Recent content in Blog on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Apr 2023 14:33:16 +0900</lastBuildDate><atom:link href="https://alchg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Apr 2023 12:39:31 +0900</lastBuildDate><atom:link href="https://alchg.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sample0</title>
       <link>https://alchg.github.io/blog/sample0/</link>
@@ -97,44 +97,6 @@ This text could go on and on, but &amp;lt;!--more---&amp;gt; to stop the summary
       
       <guid>https://alchg.github.io/blog/sample9/</guid>
       <description>This is a sample text with no particular meaning.</description>
-    </item>
-    
-    <item>
-      <title>Extra Project Sample2</title>
-      <link>https://alchg.github.io/extra_projects/sample2/</link>
-      <pubDate>Thu, 20 Apr 2023 07:14:51 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/extra_projects/sample2/</guid>
-      <description>Extra Project Sample2 </description>
-    </item>
-    
-    <item>
-      <title>Extra Project Sample1</title>
-      <link>https://alchg.github.io/extra_projects/sample1/</link>
-      <pubDate>Wed, 19 Apr 2023 14:13:15 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/extra_projects/sample1/</guid>
-      <description>Extra Project Sample1 </description>
-    </item>
-    
-    <item>
-      <title>Project1</title>
-      <link>https://alchg.github.io/projects/sample/</link>
-      <pubDate>Wed, 19 Apr 2023 14:13:15 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/projects/sample/</guid>
-      <description>Project1 </description>
-    </item>
-    
-    <item>
-      <title>Read Me</title>
-      <link>https://alchg.github.io/readme/</link>
-      <pubDate>Wed, 19 Apr 2023 13:04:54 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/readme/</guid>
-      <description>First of all This text describes what you should do after creating a new site with hugo and applying the theme. Initial Setup Copy the entire contents of the directory sample_content to the content folder. Create content to be displayed in the root menu There are two methods. Create it directly under the content folder.
-hugo new content/sample.md Create it in a subdirectory.
-hugo new content/projects/sample.md Create an extended section Create default md file</description>
     </item>
     
   </channel>

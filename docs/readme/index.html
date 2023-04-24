@@ -9,7 +9,9 @@
 	<meta property="og:url" content="https://alchg.github.io/readme/" />
 	<title>Read Me</title>
 	<link rel="icon" href="/favicon.ico">
-	<link rel="stylesheet" href="/css/style.css">
+	
+		<link rel="stylesheet" href="/css/style.css">
+	
 	<script src="/js/main.js"></script>
 </head>
 <body>
@@ -30,6 +32,7 @@
 	
 
 
+
 <header>
 	<div><img src="/top.png"></div>
 	<div class="title"><a href="https://alchg.github.io/">My New Hugo Site</a></div>
@@ -38,6 +41,42 @@
 		<div id="menu"><details id="side_menu">
 	<summary id="menu_switch">Open menu</summary>
 	<b>All</b>
+        
+        	<li><a href="/blog/sample0/">Sample0</a></li>
+        
+        	<li><a href="/categorise/">Categorise</a></li>
+        
+        	<li><a href="/tags/sample/">sample</a></li>
+        
+        	<li><a href="/categorise/sample/">sample</a></li>
+        
+        	<li><a href="/tags/">Tags</a></li>
+        
+        	<li><a href="/tags/test/">test</a></li>
+        
+        	<li><a href="/categorise/nothing/">nothing</a></li>
+        
+        	<li><a href="/blog/sample1/">Sample1</a></li>
+        
+        	<li><a href="/blog/sample2/">Sample2</a></li>
+        
+        	<li><a href="/blog/sample3/">Sample3</a></li>
+        
+        	<li><a href="/blog/sample4/">Sample4</a></li>
+        
+        	<li><a href="/blog/sample5/">Sample5</a></li>
+        
+        	<li><a href="/blog/sample6/">Sample6</a></li>
+        
+        	<li><a href="/blog/sample7/">Sample7</a></li>
+        
+        	<li><a href="/blog/sample8/">Sample8</a></li>
+        
+        	<li><a href="/blog/sample9/">Sample9</a></li>
+        
+        	<li><a href="/blog/">Blog</a></li>
+        
+        	<li><a href="/categorise/top-page/">top page</a></li>
         
         	<li><a href="/extra_projects/sample2/">Extra Project Sample2</a></li>
         
@@ -53,11 +92,27 @@
         
         	<li><a href="/readme/">Read Me</a></li>
         
-        	<li><a href="/categories/">Categories</a></li>
-        
-        	<li><a href="/tags/">Tags</a></li>
-        
 	<b>Main</b>
+        
+		
+        
+		
+        
+		
+        
+		
+        
+		
+        
+		
+        
+		
+        
+		
+        
+		
+        
+		
         
 		
 			
@@ -75,6 +130,22 @@
 			
                 		<li><a target="_blank" href="/extra_projects/">Extra Projects</a></li>
 			
+		
+        
+		
+			
+                		<li><a target="_blank" href="/blog/">Blog</a></li>
+			
+		
+        
+		
+        
+		
+        
+		
+        
+		
+        
 		
         
 		
@@ -127,9 +198,9 @@
 <li>
 <p>Initialization of _index.md</p>
 <ul>
-<li>To display it in the main menu at the top of the site Set main_menu: true to display on the top page. Next, specify the position in the main menu with main_menu_order: 99. Specify the description if necessary.<br>
+<li>To display it in the main menu at the top of the site Set main_menu: true to display on the top page. Next, specify the position in the main menu with main_menu_order: 90. Specify the description if necessary.<br>
 <code>main_menu: true</code><br>
-<code>menu_order: 99</code><br>
+<code>menu_order: 90</code><br>
 <code>description: &quot;Sample Description&quot;</code></li>
 </ul>
 </li>
@@ -140,10 +211,34 @@
 </ul>
 </li>
 <li>
-<p>Create the contents of the extended section.<br>
+<p>Create the contents of the extended section<br>
 <code>hugo new content/sample_project/sample1.md</code></p>
 <ul>
 <li>Also, change the configuration values in sample1.md as needed. For example, set menu_order: 10 for the menu order and description: &ldquo;Sample Description&rdquo; for the description.</li>
+</ul>
+</li>
+</ol>
+<h3 id="blog-setup">Blog Setup</h3>
+<ol>
+<li>
+<p>Configuration for config.toml<br>
+<code>[params]</code><br>
+<code>blog_title = 'Blog Name'</code><br>
+<code>[taxonomies]</code><br>
+<code>tag = 'tags'</code><br>
+<code>category = 'categorise'</code></p>
+</li>
+<li>
+<p>Create _index.md for the top page<br>
+<code>hugo new content/blog/_index.md</code></p>
+</li>
+<li>
+<p>Initialization of _index.md</p>
+<ul>
+<li>To display it in the main menu at the top of the site Set main_menu: true to display on the top page. Next, specify the position in the main menu with main_menu_order: 91. Specify the description if necessary.<br>
+<code>main_menu: true</code><br>
+<code>main_menu_order: 91</code><br>
+<code>description: &quot;Sample Description&quot;</code></li>
 </ul>
 </li>
 </ol>

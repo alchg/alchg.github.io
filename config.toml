@@ -4,5 +4,11 @@ title = 'My New Hugo Site'
 theme = 'simple-multipage'
 publishDir = 'docs'
 
+
 [params]
 twitter_user = '@sample'
+blog_title = 'Sample Blog'
+
+[taxonomies]
+tag = 'tags'
+category = 'categorise'
