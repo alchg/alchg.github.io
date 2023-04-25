@@ -70,5 +70,10 @@ description: "How to use this."
 `[params]`  
 `twitter_user = '@sample'`  
 
+- Change of top page image  
+`static/top.png`  
+
+- Change of Twitter card image  
+`static/twitter.png`
 
 ### End
