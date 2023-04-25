@@ -10,9 +10,10 @@
 	<title>Read Me</title>
 	<link rel="icon" href="/favicon.ico">
 	
-		<link rel="stylesheet" href="/css/style.css">
 	
-	<script src="/js/main.js"></script>
+		<script src="/js/main.js"></script>
+		<link rel="stylesheet" href="/css/main.css">
+	
 </head>
 <body>
 
@@ -40,59 +41,6 @@
 <div id="main">
 		<div id="menu"><details id="side_menu">
 	<summary id="menu_switch">Open menu</summary>
-	<b>All</b>
-        
-        	<li><a href="/blog/sample0/">Sample0</a></li>
-        
-        	<li><a href="/categorise/">Categorise</a></li>
-        
-        	<li><a href="/tags/sample/">sample</a></li>
-        
-        	<li><a href="/categorise/sample/">sample</a></li>
-        
-        	<li><a href="/tags/">Tags</a></li>
-        
-        	<li><a href="/tags/test/">test</a></li>
-        
-        	<li><a href="/categorise/nothing/">nothing</a></li>
-        
-        	<li><a href="/blog/sample1/">Sample1</a></li>
-        
-        	<li><a href="/blog/sample2/">Sample2</a></li>
-        
-        	<li><a href="/blog/sample3/">Sample3</a></li>
-        
-        	<li><a href="/blog/sample4/">Sample4</a></li>
-        
-        	<li><a href="/blog/sample5/">Sample5</a></li>
-        
-        	<li><a href="/blog/sample6/">Sample6</a></li>
-        
-        	<li><a href="/blog/sample7/">Sample7</a></li>
-        
-        	<li><a href="/blog/sample8/">Sample8</a></li>
-        
-        	<li><a href="/blog/sample9/">Sample9</a></li>
-        
-        	<li><a href="/blog/">Blog</a></li>
-        
-        	<li><a href="/categorise/top-page/">top page</a></li>
-        
-        	<li><a href="/extra_projects/sample2/">Extra Project Sample2</a></li>
-        
-        	<li><a href="/extra_projects/">Extra Projects</a></li>
-        
-        	<li><a href="/">Top Page</a></li>
-        
-        	<li><a href="/extra_projects/sample1/">Extra Project Sample1</a></li>
-        
-        	<li><a href="/projects/sample/">Project1</a></li>
-        
-        	<li><a href="/projects/">Projects</a></li>
-        
-        	<li><a href="/readme/">Read Me</a></li>
-        
-	<b>Main</b>
         
 		
         
@@ -241,18 +189,47 @@
 <code>description: &quot;Sample Description&quot;</code></li>
 </ul>
 </li>
+<li>
+<p>Creating blog posts<br>
+<code>hugo new content/blog/sample.md</code></p>
+</li>
+<li>
+<p>Configure blog post parameters</p>
+<ul>
+<li>If you want to make it a hot topic, specify a value greater than 0 for weight. Set values for tags, categorise, and description as needed.<br>
+<code>weight: 10</code><br>
+<code>tags: [sample,test]</code><br>
+<code>categorise: [sample]</code><br>
+<code>description: &quot;sample description&quot;</code></li>
+</ul>
+</li>
 </ol>
 <h3 id="options">Options</h3>
 <ul>
-<li>Configuration for config.toml<br>
+<li>
+<p>Configuration for config.toml<br>
 <code>[params]</code><br>
-<code>twitter_user = '@sample'</code></li>
+<code>twitter_user = '@sample'</code></p>
+</li>
+<li>
+<p>Change of top page image<br>
+<code>static/top.png</code></p>
+</li>
+<li>
+<p>Change of Twitter card image<br>
+<code>static/twitter.png</code></p>
+</li>
 </ul>
 <h3 id="end">End</h3>
 
         	</div>
 	</div><footer>
-	Read Me
+	<div>
+	
+	
+		<a target="_blank" href="https://twitter.com/@sample">Twitter:@sample</a>
+	
+	</div>
 </footer>
 </body>
 </html>

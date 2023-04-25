@@ -22,7 +22,7 @@ header > div > a {
 	padding: 10px;
 	text-decoration: none;
 }
-div#menu {
+div#taxonomies {
 	padding: 10px;
 }
 div#content {
@@ -33,7 +33,6 @@ div.content_item {
 	margin: 10px;
 }
 div.content_item > a {
-	display: block;
 	color: black;
 	text-decoration: none;
 }
@@ -49,10 +48,19 @@ code {
 	color: lightyellow;
 	padding: 3px;
 }
+div#menu {
+	padding: 10px;
+}
 footer {
 	background: darkslateblue;
 	width: -webkit-fill-available;
 	padding: 5px;
+}
+footer > div {
+        align-self: center;
+}
+footer > div > a {
+        color: white;
 }
 @media(min-width: 1100px){
 	body {
