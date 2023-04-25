@@ -1,140 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Top Page on My New Hugo Site</title>
+    <title>Alchg Projects</title>
     <link>https://alchg.github.io/</link>
-    <description>Recent content in Top Page on My New Hugo Site</description>
+    <description>Recent content on Alchg Projects</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>ja</language>
     <lastBuildDate>Wed, 19 Apr 2023 14:33:16 +0900</lastBuildDate><atom:link href="https://alchg.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sample0</title>
-      <link>https://alchg.github.io/blog/sample0/</link>
-      <pubDate>Sun, 23 Apr 2023 22:27:01 +0900</pubDate>
+      <title>Hugoでthemeからサイトを制作してみた</title>
+      <link>https://alchg.github.io/blog/hugo%E3%81%A7theme%E3%81%8B%E3%82%89%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E5%88%B6%E4%BD%9C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <pubDate>Tue, 25 Apr 2023 15:10:16 +0900</pubDate>
       
-      <guid>https://alchg.github.io/blog/sample0/</guid>
-      <description>&lt;p&gt;This is a sample page.
-This is the text prepared for the main page of this blog, showing how to use the summary.
-This text could go on and on, but &amp;lt;!--more---&amp;gt; to stop the summary at this point.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Sample1</title>
-      <link>https://alchg.github.io/blog/sample1/</link>
-      <pubDate>Sun, 23 Apr 2023 22:14:57 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/blog/sample1/</guid>
-      <description>This is a sample text with no particular meaning.</description>
-    </item>
-    
-    <item>
-      <title>Sample2</title>
-      <link>https://alchg.github.io/blog/sample2/</link>
-      <pubDate>Sun, 23 Apr 2023 22:14:57 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/blog/sample2/</guid>
-      <description>This is a sample text with no particular meaning.</description>
-    </item>
-    
-    <item>
-      <title>Sample3</title>
-      <link>https://alchg.github.io/blog/sample3/</link>
-      <pubDate>Sun, 23 Apr 2023 22:14:57 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/blog/sample3/</guid>
-      <description>This is a sample text with no particular meaning.</description>
-    </item>
-    
-    <item>
-      <title>Sample4</title>
-      <link>https://alchg.github.io/blog/sample4/</link>
-      <pubDate>Sun, 23 Apr 2023 22:14:57 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/blog/sample4/</guid>
-      <description>This is a sample text with no particular meaning.</description>
-    </item>
-    
-    <item>
-      <title>Sample5</title>
-      <link>https://alchg.github.io/blog/sample5/</link>
-      <pubDate>Sun, 23 Apr 2023 22:14:57 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/blog/sample5/</guid>
-      <description>This is a sample text with no particular meaning.</description>
-    </item>
-    
-    <item>
-      <title>Sample6</title>
-      <link>https://alchg.github.io/blog/sample6/</link>
-      <pubDate>Sun, 23 Apr 2023 22:14:57 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/blog/sample6/</guid>
-      <description>This is a sample text with no particular meaning.</description>
-    </item>
-    
-    <item>
-      <title>Sample7</title>
-      <link>https://alchg.github.io/blog/sample7/</link>
-      <pubDate>Sun, 23 Apr 2023 22:14:57 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/blog/sample7/</guid>
-      <description>This is a sample text with no particular meaning.</description>
-    </item>
-    
-    <item>
-      <title>Sample8</title>
-      <link>https://alchg.github.io/blog/sample8/</link>
-      <pubDate>Sun, 23 Apr 2023 22:14:57 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/blog/sample8/</guid>
-      <description>This is a sample text with no particular meaning.</description>
-    </item>
-    
-    <item>
-      <title>Sample9</title>
-      <link>https://alchg.github.io/blog/sample9/</link>
-      <pubDate>Sun, 23 Apr 2023 22:14:57 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/blog/sample9/</guid>
-      <description>This is a sample text with no particular meaning.</description>
-    </item>
-    
-    <item>
-      <title>Extra Project Sample2</title>
-      <link>https://alchg.github.io/extra_projects/sample2/</link>
-      <pubDate>Thu, 20 Apr 2023 07:14:51 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/extra_projects/sample2/</guid>
-      <description>Extra Project Sample2 </description>
-    </item>
-    
-    <item>
-      <title>Extra Project Sample1</title>
-      <link>https://alchg.github.io/extra_projects/sample1/</link>
-      <pubDate>Wed, 19 Apr 2023 14:13:15 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/extra_projects/sample1/</guid>
-      <description>Extra Project Sample1 </description>
-    </item>
-    
-    <item>
-      <title>Project1</title>
-      <link>https://alchg.github.io/projects/sample/</link>
-      <pubDate>Wed, 19 Apr 2023 14:13:15 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/projects/sample/</guid>
-      <description>Project1 </description>
-    </item>
-    
-    <item>
-      <title>Read Me</title>
-      <link>https://alchg.github.io/readme/</link>
-      <pubDate>Wed, 19 Apr 2023 13:04:54 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/readme/</guid>
-      <description>First of all This text describes what you should do after creating a new site with hugo and applying the theme. Initial Setup Copy the entire contents of the directory sample_content to the content folder. Create content to be displayed in the root menu There are two methods. Create it directly under the content folder.
-hugo new content/sample.md Create it in a subdirectory.
-hugo new content/projects/sample.md Create an extended section Create default md file</description>
+      <guid>https://alchg.github.io/blog/hugo%E3%81%A7theme%E3%81%8B%E3%82%89%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E5%88%B6%E4%BD%9C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;制作理由&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;独特のサイト構成にしたかったのと、テンプレートを色々試すのが面倒だった為。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;リソース&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHubで管理しています。&lt;br&gt;
+&lt;code&gt;https://github.com/alchg/simple-multipage.git&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
   </channel>

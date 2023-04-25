@@ -1,13 +1,14 @@
 baseURL = 'https://alchg.github.io/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'ja'
+defaultContentLanguage = 'ja'
+title = 'Alchg Projects'
 theme = 'simple-multipage'
 publishDir = 'docs'
 
 
 [params]
-twitter_user = '@sample'
-blog_title = 'Sample Blog'
+twitter_user = '@marimo_linux'
+blog_title = '銀の棲家'
 
 [taxonomies]
 tag = 'tags'

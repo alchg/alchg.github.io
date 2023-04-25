@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
+    <title>Tags on Alchg Projects</title>
     <link>https://alchg.github.io/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <description>Recent content in Tags on Alchg Projects</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 23 Apr 2023 22:27:01 +0900</lastBuildDate><atom:link href="https://alchg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja</language>
+    <lastBuildDate>Tue, 25 Apr 2023 15:10:16 +0900</lastBuildDate><atom:link href="https://alchg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>sample</title>
-      <link>https://alchg.github.io/tags/sample/</link>
-      <pubDate>Sun, 23 Apr 2023 22:27:01 +0900</pubDate>
+      <title>Hugo</title>
+      <link>https://alchg.github.io/tags/hugo/</link>
+      <pubDate>Tue, 25 Apr 2023 15:10:16 +0900</pubDate>
       
-      <guid>https://alchg.github.io/tags/sample/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://alchg.github.io/tags/test/</link>
-      <pubDate>Sun, 23 Apr 2023 22:27:01 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/tags/test/</guid>
+      <guid>https://alchg.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     

@@ -1,36 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categorise on My New Hugo Site</title>
+    <title>Categorise on Alchg Projects</title>
     <link>https://alchg.github.io/categorise/</link>
-    <description>Recent content in Categorise on My New Hugo Site</description>
+    <description>Recent content in Categorise on Alchg Projects</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 23 Apr 2023 22:27:01 +0900</lastBuildDate><atom:link href="https://alchg.github.io/categorise/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja</language>
+    <lastBuildDate>Tue, 25 Apr 2023 15:10:16 +0900</lastBuildDate><atom:link href="https://alchg.github.io/categorise/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>sample</title>
-      <link>https://alchg.github.io/categorise/sample/</link>
-      <pubDate>Sun, 23 Apr 2023 22:27:01 +0900</pubDate>
+      <title>サイト制作</title>
+      <link>https://alchg.github.io/categorise/%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C/</link>
+      <pubDate>Tue, 25 Apr 2023 15:10:16 +0900</pubDate>
       
-      <guid>https://alchg.github.io/categorise/sample/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nothing</title>
-      <link>https://alchg.github.io/categorise/nothing/</link>
-      <pubDate>Sun, 23 Apr 2023 22:14:57 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/categorise/nothing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>top page</title>
-      <link>https://alchg.github.io/categorise/top-page/</link>
-      <pubDate>Sun, 23 Apr 2023 12:39:31 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/categorise/top-page/</guid>
+      <guid>https://alchg.github.io/categorise/%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C/</guid>
       <description></description>
     </item>
     

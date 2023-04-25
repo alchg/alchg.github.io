@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ブログ「銀の棲家」 on Alchg Projects</title>
-    <link>https://alchg.github.io/blog/</link>
-    <description>Recent content in ブログ「銀の棲家」 on Alchg Projects</description>
+    <title>サイト制作 on Alchg Projects</title>
+    <link>https://alchg.github.io/categorise/%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C/</link>
+    <description>Recent content in サイト制作 on Alchg Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 23 Apr 2023 12:39:31 +0900</lastBuildDate><atom:link href="https://alchg.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Apr 2023 15:10:16 +0900</lastBuildDate><atom:link href="https://alchg.github.io/categorise/%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugoでthemeからサイトを制作してみた</title>
       <link>https://alchg.github.io/blog/hugo%E3%81%A7theme%E3%81%8B%E3%82%89%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E5%88%B6%E4%BD%9C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
