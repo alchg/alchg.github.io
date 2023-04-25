@@ -74,6 +74,6 @@ description: "How to use this."
 `static/top.png`  
 
 - Change of Twitter card image  
-`static/twitter.png`
+`static/twitter.png`  
 
 ### End
