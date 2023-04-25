@@ -55,6 +55,16 @@ description: "How to use this."
 `main_menu_order: 91`  
 `description: "Sample Description"`  
 
+4. Creating blog posts  
+`hugo new content/blog/sample.md`  
+
+5. Configure blog post parameters  
+	- If you want to make it a hot topic, specify a value greater than 0 for weight. Set values for tags, categorise, and description as needed.  
+`weight: 10`  
+`tags: [sample,test]`  
+`categorise: [sample]`  
+`description: "sample description"`  
+
 ### Options
 - Configuration for config.toml  
 `[params]`  
