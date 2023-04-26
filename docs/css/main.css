@@ -25,6 +25,9 @@ header > div > a {
 div#menu {
 	padding: 10px;
 }
+summary#menu_switch {
+	padding: 10px;
+}
 div#content {
 	background: palegoldenrod;
 	width: -webkit-fill-available;
