@@ -28,6 +28,9 @@ div#menu {
 summary#menu_switch {
 	padding: 10px;
 }
+details#side_menu > li {
+	padding: 5px;
+}
 div#content {
 	background: palegoldenrod;
 	width: -webkit-fill-available;
