@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>エミュレーター on Alchg Projects</title>
+    <link>https://alchg.github.io/tags/%E3%82%A8%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/</link>
+    <description>Recent content in エミュレーター on Alchg Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 07 May 2023 06:18:19 +0900</lastBuildDate><atom:link href="https://alchg.github.io/tags/%E3%82%A8%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自作ゲームボーイエミュレーターで実機データを動かす</title>
+      <link>https://alchg.github.io/blog/gamboy%E3%82%A8%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/</link>
+      <pubDate>Sun, 07 May 2023 06:18:19 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/blog/gamboy%E3%82%A8%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/</guid>
+      <description>まずはじめに
+インターネットで無断で配布されているROMカートリッジをダウンロードすると違法になります。
+必ず実機カートリッジを購入して使用しましょう。
+手順
+ROMカードリッジ購入
+メルカリなどでも入手できます。ハードオフなども行けると思います。 吸い出し機の購入
+私はGBAダンパーを購入しました。Raspberry Piなどを使用しても可能ですが現時点では入手が容易ではなくなっていました。 吸い出し
+GBAダンパーの場合は接続するだけでストレージとして認識され中にファイルが生成されます。各機種の手順に従いましょう。 実行
+ポケットモンスター緑を動かしてみました。カートリッジタイプはMBC1で、ROMは512KB、RAMは32KBの様です。エミュレーターが正しくデータを処理できていると正常に動作します。
+終りに
+実機でプレイしたことのあるポケモンが自分のプログラムで動作するのを見るのは感慨深い物があります。プログラミングの練習には良い題材だと思います。
+まだセーブ機能が無いので実質プレイは出来ませんが今後出来たら機能追加したいと思います。</description>
+    </item>
+    
+  </channel>
+</rss>

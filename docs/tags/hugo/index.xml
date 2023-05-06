@@ -13,20 +13,15 @@
       <pubDate>Tue, 25 Apr 2023 15:10:16 +0900</pubDate>
       
       <guid>https://alchg.github.io/blog/hugo%E3%81%A7theme%E3%81%8B%E3%82%89%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E5%88%B6%E4%BD%9C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;まずはじめに&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;このサイト自体がHugo用に自作したthemeを使用して構築されています。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;動機&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;独特のサイト構成にしたかったのと、テンプレートを色々試すのが面倒だった為。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
+      <description> まずはじめに
+このサイト自体がHugo用に自作したthemeを使用して構築されています。 動機
+独特のサイト構成にしたかったのと、テンプレートを色々試すのが面倒だった為。 リソース
+GitHubで管理しています。
+https://github.com/alchg/simple-multipage.git 機能
+メインページにセクションやブログを集約する機能 セクションを外部サイトとして扱う機能 タグやカテゴリで分類できるブログ風機能 手順など
+htmlファイルがテンプレートになっているので編集してmdファイルの変換手順を記述していきます。セクションやタグやカテゴライズでテンプレートの優先順位が決まっており把握しながら作り込んでいきました。ディレクトリ構造も把握する必要があります。また使える文法などは限定的な部分があります。 主要参考サイト
+Hugo公式 まくまくHugoノート その他多くのブログやChatGPTなども参考にしました。 その他
+まだまだ未完成です。可能な限り手を加えていく予定です。 </description>
     </item>
     
   </channel>

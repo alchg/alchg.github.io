@@ -8,25 +8,40 @@
     <language>ja</language>
     <lastBuildDate>Wed, 19 Apr 2023 14:33:16 +0900</lastBuildDate><atom:link href="https://alchg.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>自作ゲームボーイエミュレーターで実機データを動かす</title>
+      <link>https://alchg.github.io/blog/gamboy%E3%82%A8%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/</link>
+      <pubDate>Sun, 07 May 2023 06:18:19 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/blog/gamboy%E3%82%A8%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/</guid>
+      <description>まずはじめに
+インターネットで無断で配布されているROMカートリッジをダウンロードすると違法になります。
+必ず実機カートリッジを購入して使用しましょう。
+手順
+ROMカードリッジ購入
+メルカリなどでも入手できます。ハードオフなども行けると思います。 吸い出し機の購入
+私はGBAダンパーを購入しました。Raspberry Piなどを使用しても可能ですが現時点では入手が容易ではなくなっていました。 吸い出し
+GBAダンパーの場合は接続するだけでストレージとして認識され中にファイルが生成されます。各機種の手順に従いましょう。 実行
+ポケットモンスター緑を動かしてみました。カートリッジタイプはMBC1で、ROMは512KB、RAMは32KBの様です。エミュレーターが正しくデータを処理できていると正常に動作します。
+終りに
+実機でプレイしたことのあるポケモンが自分のプログラムで動作するのを見るのは感慨深い物があります。プログラミングの練習には良い題材だと思います。
+まだセーブ機能が無いので実質プレイは出来ませんが今後出来たら機能追加したいと思います。</description>
+    </item>
+    
+    <item>
       <title>Hugoでthemeからサイトを制作してみた</title>
       <link>https://alchg.github.io/blog/hugo%E3%81%A7theme%E3%81%8B%E3%82%89%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E5%88%B6%E4%BD%9C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Tue, 25 Apr 2023 15:10:16 +0900</pubDate>
       
       <guid>https://alchg.github.io/blog/hugo%E3%81%A7theme%E3%81%8B%E3%82%89%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E5%88%B6%E4%BD%9C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;まずはじめに&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;このサイト自体がHugo用に自作したthemeを使用して構築されています。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;動機&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;独特のサイト構成にしたかったのと、テンプレートを色々試すのが面倒だった為。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
+      <description> まずはじめに
+このサイト自体がHugo用に自作したthemeを使用して構築されています。 動機
+独特のサイト構成にしたかったのと、テンプレートを色々試すのが面倒だった為。 リソース
+GitHubで管理しています。
+https://github.com/alchg/simple-multipage.git 機能
+メインページにセクションやブログを集約する機能 セクションを外部サイトとして扱う機能 タグやカテゴリで分類できるブログ風機能 手順など
+htmlファイルがテンプレートになっているので編集してmdファイルの変換手順を記述していきます。セクションやタグやカテゴライズでテンプレートの優先順位が決まっており把握しながら作り込んでいきました。ディレクトリ構造も把握する必要があります。また使える文法などは限定的な部分があります。 主要参考サイト
+Hugo公式 まくまくHugoノート その他多くのブログやChatGPTなども参考にしました。 その他
+まだまだ未完成です。可能な限り手を加えていく予定です。 </description>
     </item>
     
     <item>

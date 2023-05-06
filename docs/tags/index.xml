@@ -6,7 +6,34 @@
     <description>Recent content in Tags on Alchg Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 25 Apr 2023 15:10:16 +0900</lastBuildDate><atom:link href="https://alchg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 May 2023 06:18:19 +0900</lastBuildDate><atom:link href="https://alchg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust</title>
+      <link>https://alchg.github.io/tags/rust/</link>
+      <pubDate>Sun, 07 May 2023 06:18:19 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/tags/rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ゲームボーイ</title>
+      <link>https://alchg.github.io/tags/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%9C%E3%83%BC%E3%82%A4/</link>
+      <pubDate>Sun, 07 May 2023 06:18:19 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/tags/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%9C%E3%83%BC%E3%82%A4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>エミュレーター</title>
+      <link>https://alchg.github.io/tags/%E3%82%A8%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/</link>
+      <pubDate>Sun, 07 May 2023 06:18:19 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/tags/%E3%82%A8%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Hugo</title>
       <link>https://alchg.github.io/tags/hugo/</link>
