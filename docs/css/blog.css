@@ -39,6 +39,9 @@ div.content_item > a {
 div.content_item > a > div {
 	padding: 5px;
 }
+div.content_item > a > div.content_item_summary {
+	color: gray;
+}
 div.content_text {
 	background: palegoldenrod;
 	padding: 10px;
