@@ -46,6 +46,9 @@ div.content_text {
 	background: palegoldenrod;
 	padding: 10px;
 }
+img {
+	max-width: 100%;
+}
 code {
 	background: cadetblue;
 	color: lightyellow;
