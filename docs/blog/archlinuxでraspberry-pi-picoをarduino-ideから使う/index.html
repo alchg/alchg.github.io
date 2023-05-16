@@ -3,11 +3,11 @@
 	<meta charset="UTF-8">
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@marimo_linux" />
-	<meta property="og:title" content="Hugoでthemeからサイトを制作してみた" />
-	<meta property="og:description" content="Hugoでthemeを使わずにサイト制作した時のメモで１つ目のブログ記事です。" />
+	<meta property="og:title" content="ArchLinuxでRaspberry Pi PicoをArduino IDEから使う" />
+	<meta property="og:description" content="ArchLinuxでRaspberryPiPicoをArduinoIDEから使う時のまとめ" />
 	<meta property="og:image" content="https://alchg.github.io/twitter.png" />
-	<meta property="og:url" content="https://alchg.github.io/blog/hugo%E3%81%A7theme%E3%81%8B%E3%82%89%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E5%88%B6%E4%BD%9C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/" />
-	<title>Hugoでthemeからサイトを制作してみた</title>
+	<meta property="og:url" content="https://alchg.github.io/blog/archlinux%E3%81%A7raspberry-pi-pico%E3%82%92arduino-ide%E3%81%8B%E3%82%89%E4%BD%BF%E3%81%86/" />
+	<title>ArchLinuxでRaspberry Pi PicoをArduino IDEから使う</title>
 	<link rel="icon" href="/favicon.ico">
 	
 	
@@ -38,55 +38,72 @@
 <div id="main">
                 <div id="content">
 			<div class="content_text">
-                        	<h1>Hugoでthemeからサイトを制作してみた</h1>
+                        	<h1>ArchLinuxでRaspberry Pi PicoをArduino IDEから使う</h1>
                         	<ol>
 <li>まずはじめに
 <ul>
-<li>このサイト自体がHugo用に自作したthemeを使用して構築されています。</li>
+<li>ArchLinuxのGUI環境は構築済みであること</li>
+<li>Raspberry Pi Picoを使用する</li>
+<li>1.x系のArduinoIDEを使用する</li>
+<li>Raspberry Pi Pico/RP2040を使用する</li>
+<li>Lチカまでやる</li>
 </ul>
 </li>
 </ol>
 <ol start="2">
 <li>
-<p>動機</p>
-<ul>
-<li>独特のサイト構成にしたかったのと、テンプレートを色々試すのが面倒だった為。</li>
-</ul>
+<p>インストール<br>
+<code>pacman -Sy arduino python udisks2</code></p>
 </li>
 <li>
-<p>リソース</p>
-<ul>
-<li>GitHubで管理しています。<br>
-<code>https://github.com/alchg/simple-multipage.git</code></li>
-</ul>
+<p>シリアル通信に必要なのでユーザーをuucpグループに追加<br>
+<code>gpasswd -a user uucp</code></p>
 </li>
 <li>
-<p>機能</p>
-<ul>
-<li>メインページにセクションやブログを集約する機能</li>
-<li>セクションを外部サイトとして扱う機能</li>
-<li>タグやカテゴリで分類できるブログ風機能</li>
-</ul>
+<p>再起動</p>
 </li>
 <li>
-<p>手順など</p>
-<ul>
-<li>htmlファイルがテンプレートになっているので編集してmdファイルの変換手順を記述していきます。セクションやタグやカテゴライズでテンプレートの優先順位が決まっており把握しながら作り込んでいきました。ディレクトリ構造も把握する必要があります。また使える文法などは限定的な部分があります。</li>
-</ul>
+<p>ArduinoIDE設定</p>
+<ol>
+<li>
+<p>メニューからFile&gt;Preferencesを選択</p>
 </li>
 <li>
-<p>主要参考サイト</p>
-<ul>
-<li><a href="https://gohugo.io/">Hugo公式</a></li>
-<li><a href="https://maku77.github.io/hugo/">まくまくHugoノート</a></li>
-<li>その他多くのブログやChatGPTなども参考にしました。</li>
-</ul>
+<p>Additional Boards Manager URLsにURLを追加する<br>
+<code>https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json</code></p>
+<p><img src="/image/2023-05-16-step02.png" alt="step2"></p>
 </li>
 <li>
-<p>その他</p>
-<ul>
-<li>まだまだ未完成です。可能な限り手を加えていく予定です。</li>
-</ul>
+<p>メニューからTools&gt;Board&gt;Board Managerを選択</p>
+</li>
+<li>
+<p>Raspberry Pi Pico/RP2040をインストール<br>
+<img src="/image/2023-05-16-step04.png" alt="step4"></p>
+</li>
+<li>
+<p>ArduinoIDEを再起動</p>
+</li>
+<li>
+<p>メニューからFile&gt;Examples&gt;01.Basics&gt;Blinkを選択</p>
+</li>
+<li>
+<p>ブートセルボタンを押しながらRaspberryPiPicoを接続</p>
+</li>
+<li>
+<p>メニューからTools&gt;BoardがRaspberryPiPicoになってることを確認</p>
+</li>
+<li>
+<p>メニューからTools&gt;Port&gt;UF2 Boardを選択</p>
+</li>
+<li>
+<p>サンプルプログラムをアップロード<br>
+Lチカが始まります</p>
+</li>
+<li>
+<p>備考<br>
+次回以降のアップロードはPortに<code>/dev/ttyACM0(Raspberry Pi Pico)</code>等を選択します。</p>
+</li>
+</ol>
 </li>
 </ol>
 			</div>
