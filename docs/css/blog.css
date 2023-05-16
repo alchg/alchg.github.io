@@ -50,6 +50,7 @@ img {
 	max-width: 100%;
 }
 code {
+	word-break: break-all;
 	background: cadetblue;
 	color: lightyellow;
 	padding: 3px;
