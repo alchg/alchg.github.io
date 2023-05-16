@@ -7,7 +7,7 @@ main_menu_order: 0
 weight: 10
 tags: [RaspberryPiPico,Arduino]
 categorise: [ArchLinux]
-description: "ArchLinuxでRaspberryPiPicoをArduinoIDEから使う時のまとめ"
+description: "ArchLinuxでラズピコをArduinoIDEするメモ"
 ---
 1. まずはじめに  
 	- ArchLinuxのGUI環境は構築済みであること  
