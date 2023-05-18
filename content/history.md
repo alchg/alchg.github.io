@@ -6,6 +6,9 @@ main_menu: true
 main_menu_order: 99
 description: "サイト全体の更新履歴です。"
 ---
+- 2023/05/18  
+	- Androidアプリ「シンプルリマインダー」のページを作成  
+
 - 2023/04/26  
 	- 更新履歴のページを作成  
 
