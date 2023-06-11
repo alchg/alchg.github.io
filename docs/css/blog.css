@@ -5,6 +5,15 @@ body {
 	margin: 0px;
 	font-size: xx-large;
 }
+a {
+        color: steelblue;
+} 
+a:visited {
+        color: dimgray;
+}
+a:hover {
+        color: navy;
+}
 header {
 	background: darkslateblue;
 	padding: 5px;
@@ -21,6 +30,13 @@ header > div > a {
 	color: white;
 	padding: 10px;
 	text-decoration: none;
+}
+
+header > div > a:visited {
+	color: white;
+}
+header > div > a:hover {
+	color: white;
 }
 div#taxonomies {
 	padding: 10px;
@@ -67,6 +83,12 @@ footer > div {
         align-self: center;
 }
 footer > div > a {
+        color: white;
+}
+footer > div > a:visited {
+        color: white;
+}
+footer > div > a:hover {
         color: white;
 }
 @media(min-width: 1100px){
