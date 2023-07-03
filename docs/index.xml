@@ -55,6 +55,23 @@
     </item>
     
     <item>
+      <title>Tweety Shantak</title>
+      <link>https://alchg.github.io/tweetyshantak/</link>
+      <pubDate>Mon, 03 Jul 2023 11:59:15 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/tweetyshantak/</guid>
+      <description>Twitter音声リーダーです。合成音声によりタイムラインを読み上げます。
+Android 5.0〜11.0
+oAuth認証に対応 自動終了機能あり 読上げ数の変更機能あり GooglePlayのアプリページに移動
+プライバシーポリシー(Privacy Policy) ストレージ(Storage)
+- タスクリストを保存する為、内部ストレージを使用しています。
+- Internal storage is used to store the task list.
+インターネット、ネットワーク通信状況(internet and network access state)
+- Twitterへのアクセスと合成音声に使用しています。
+- Used for Twitter access and synthetic speech.</description>
+    </item>
+    
+    <item>
       <title>シンプルリマインダー</title>
       <link>https://alchg.github.io/simplereminder/</link>
       <pubDate>Thu, 18 May 2023 11:32:16 +0900</pubDate>
