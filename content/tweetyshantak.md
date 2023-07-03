@@ -10,8 +10,8 @@ description: "Twitter音声リーダーです。合成音声によりタイム�
 Twitter音声リーダーです。合成音声によりタイムラインを読み上げます。  
 Android 5.0〜11.0  
 - oAuth認証に対応  
-- 自動終了機能あり  
-- 読上げ数の変更機能あり  
+- 自動終了機能  
+- 読上げ数の変更機能  
 
 [GooglePlayのアプリページに移動](https://play.google.com/store/apps/details?id=com.alchg.tweetyshantaktrial)  
 
