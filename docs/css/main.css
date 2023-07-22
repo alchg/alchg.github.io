@@ -17,10 +17,11 @@ a:hover	{
 header {
 	background: darkslateblue;
 	width: -webkit-fill-available;
+	width: -moz-available;
 	padding: 5px;
 	display: flex;
 }
-header > div > img {
+header > img {
 	height: 100%;
 	max-height: 204px;
 }
@@ -44,11 +45,13 @@ summary#menu_switch {
 	padding: 10px;
 }
 details#side_menu > li {
+	list-style: inside;
 	padding: 5px;
 }
 div#content {
 	background: palegoldenrod;
 	width: -webkit-fill-available;
+	width: -moz-available;
 	padding: 10px;
 }
 code {
@@ -59,6 +62,7 @@ code {
 footer {
 	background: darkslateblue;
 	width: -webkit-fill-available;
+	width: -moz-available;
 	padding: 5px;
 	display: flex;
 }
