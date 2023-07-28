@@ -1,5 +1,5 @@
 ---
-title: "ディストリ「Alchg Linux」"
+title: "Alchg Linux"
 date: 2023-07-28T11:13:28+09:00
 draft: false
 main_menu: true
