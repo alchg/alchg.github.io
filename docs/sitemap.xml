@@ -1,62 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://alchg.github.io/blog/archlinux%E3%81%A7raspberry-pi-pico%E3%82%92arduino-ide%E3%81%8B%E3%82%89%E4%BD%BF%E3%81%86/</loc>
-    <lastmod>2023-05-16T11:44:33+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/blog/hugo%E3%81%A7theme%E3%81%8B%E3%82%89%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E5%88%B6%E4%BD%9C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</loc>
-    <lastmod>2023-04-25T15:10:16+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/blog/gamboy%E3%82%A8%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/</loc>
-    <lastmod>2023-05-07T06:18:19+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/tweetyshantak/</loc>
-    <lastmod>2023-07-03T11:59:15+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/simplereminder/</loc>
-    <lastmod>2023-05-18T11:32:16+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/categorise/archlinux/</loc>
-    <lastmod>2023-05-16T11:44:33+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/tags/arduino/</loc>
-    <lastmod>2023-05-16T11:44:33+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/categorise/</loc>
-    <lastmod>2023-05-16T11:44:33+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/tags/raspberrypipico/</loc>
-    <lastmod>2023-05-16T11:44:33+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/tags/</loc>
-    <lastmod>2023-05-16T11:44:33+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/tags/rust/</loc>
-    <lastmod>2023-05-07T06:18:19+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/tags/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%9C%E3%83%BC%E3%82%A4/</loc>
-    <lastmod>2023-05-07T06:18:19+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/tags/%E3%82%A8%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/</loc>
-    <lastmod>2023-05-07T06:18:19+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/categorise/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</loc>
-    <lastmod>2023-05-07T06:18:19+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/history/</loc>
-    <lastmod>2023-04-26T12:52:06+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/tags/hugo/</loc>
-    <lastmod>2023-04-25T15:10:16+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/categorise/%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C/</loc>
-    <lastmod>2023-04-25T15:10:16+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/blog/</loc>
-    <lastmod>2023-04-23T12:39:31+09:00</lastmod>
-  </url><url>
-    <loc>https://alchg.github.io/</loc>
-    <lastmod>2023-04-19T14:33:16+09:00</lastmod>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://alchg.github.io/ja/sitemap.xml</loc>
+    
+      <lastmod>2023-07-28T16:31:37+09:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://alchg.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2023-07-28T16:31:37+09:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>

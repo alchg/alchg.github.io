@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alchg Linux on Alchg Projects</title>
+    <link>https://alchg.github.io/en/alchglinux/</link>
+    <description>Recent content in Alchg Linux on Alchg Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 28 Jul 2023 11:13:28 +0900</lastBuildDate><atom:link href="https://alchg.github.io/en/alchglinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Download</title>
+      <link>https://alchg.github.io/en/alchglinux/download/</link>
+      <pubDate>Fri, 28 Jul 2023 16:31:37 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/en/alchglinux/download/</guid>
+      <description> ISO file and sha256sum.txt can be downloaded from GitHub. </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,6 +5,17 @@ title = 'Alchg Projects'
 theme = 'simple-multipage'
 publishDir = 'docs'
 
+DefaultContentLanguage = "ja"
+
+[languages]
+ [languages.ja]
+  weight = 10
+  title = "Alchg Projects"
+ [languages.en]
+  weight = 20
+  title = "Alchg Projects"
+
+
 
 [params]
 twitter_user = '@marimo_linux'

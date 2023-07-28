@@ -55,6 +55,15 @@
     </item>
     
     <item>
+      <title>ダウンロード</title>
+      <link>https://alchg.github.io/alchglinux/download/</link>
+      <pubDate>Fri, 28 Jul 2023 16:31:37 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/alchglinux/download/</guid>
+      <description> GitHubからISOファイルとsha256sum.txtをダウンロード可能です。 </description>
+    </item>
+    
+    <item>
       <title>Tweety Shantak</title>
       <link>https://alchg.github.io/tweetyshantak/</link>
       <pubDate>Mon, 03 Jul 2023 11:59:15 +0900</pubDate>
