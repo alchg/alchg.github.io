@@ -1,9 +1,9 @@
 ---
-title: "Alchg Linux"
+title: "ディストリ「Alchg Linux」"
 date: 2023-07-28T11:13:28+09:00
 draft: false
 main_menu: true
-main_menu_order: 0
+main_menu_order: 70
 menu_order: 10
 description: "Alchg Linuxトップページ"
 ---

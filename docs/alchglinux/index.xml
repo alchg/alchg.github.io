@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alchg Linux on Alchg Projects</title>
+    <title>ディストリ「Alchg Linux」 on Alchg Projects</title>
     <link>https://alchg.github.io/alchglinux/</link>
-    <description>Recent content in Alchg Linux on Alchg Projects</description>
+    <description>Recent content in ディストリ「Alchg Linux」 on Alchg Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 28 Jul 2023 11:13:28 +0900</lastBuildDate><atom:link href="https://alchg.github.io/alchglinux/index.xml" rel="self" type="application/rss+xml" />
