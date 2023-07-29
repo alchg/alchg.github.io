@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Alchg Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 16 May 2023 11:44:33 +0900</lastBuildDate><atom:link href="https://alchg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jul 2023 14:49:57 +0900</lastBuildDate><atom:link href="https://alchg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PD</title>
+      <link>https://alchg.github.io/tags/pd/</link>
+      <pubDate>Sat, 29 Jul 2023 14:49:57 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/tags/pd/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Arduino</title>
       <link>https://alchg.github.io/tags/arduino/</link>
