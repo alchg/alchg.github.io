@@ -3,7 +3,7 @@ title: "Tweety Shantak"
 date: 2023-07-03T11:59:15+09:00
 draft: false
 main_menu: true
-main_menu_order: 10
+main_menu_order: 11
 description: "Twitter音声リーダーです。合成音声によりタイムラインを読み上げます。"
 ---
 ![top](/image/2023-07-03-TS.png)  
