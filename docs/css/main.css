@@ -54,6 +54,9 @@ div#content {
 	width: -moz-available;
 	padding: 10px;
 }
+img {
+        max-width: 100%;
+}
 code {
 	background: cadetblue;
 	color: lightyellow;

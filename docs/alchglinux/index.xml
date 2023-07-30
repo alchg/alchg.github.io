@@ -8,12 +8,104 @@
     <language>ja</language>
     <lastBuildDate>Fri, 28 Jul 2023 11:13:28 +0900</lastBuildDate><atom:link href="https://alchg.github.io/alchglinux/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>ReadMe</title>
+      <link>https://alchg.github.io/alchglinux/readme/</link>
+      <pubDate>Sun, 30 Jul 2023 16:06:27 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/alchglinux/readme/</guid>
+      <description>便利Tips コマンド
+管理者モード(パスワードはroot)：su アプリケーション検索：pacman -Ssy firefox web browser インストール：pacman -Sy firefox 参考
+一般的なアプリケーション一覧 タスクバーの上など、マウスホイールでデスクトップの切替が出来る。 ２タップしたまま上下ドラッグでデスクトップ切替する機能がある。 ２タップや３タップで右クリックやホイールクリックをする機能がある。 RAMディスクの容量はRAM2GiB以上で動的に増える。 ArchLinuxインストール時にウェブブラウザを使う場合、NetSurfを使用した方がリソースを消費しない。 リモートデスクトップ(Vinagre)は画面上端の中央をクリックしてAlt+F4すると終了する事が出来る(OpenBoxの機能)。現状では本来表示されるコントロールウィジェットが透明になっている。 </description>
+    </item>
+    
+    <item>
+      <title>その他の情報</title>
+      <link>https://alchg.github.io/alchglinux/other/</link>
+      <pubDate>Sun, 30 Jul 2023 15:54:30 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/alchglinux/other/</guid>
+      <description>マニュアルについて
+ArchWikiを参照してください。AlchgLinuxはArchLinuxそのものでもあるため、ArchLinux関するあらゆる情報が利用できます。ReadMeに基本的な情報があります。
+DVDやUSBメモリ等からの起動について
+ArchLinuxと同様でUEFIおよびBIOSモードでの起動が可能です。詳細はArchWikiを参照してください。
+プログラムの改変は一つもない
+AlchgLinuxはArchLinuxをベースにしていますが、プログラムの変更点は一つもありません。また独自のプログラムも含んでいません。
+ArchLinuxとの違い
+AlchgLinuxはArchLinuxのインストールディスクに対して最低限のGUIを追加し、Webブラウザを追加した物です。
+したがって、ArchWikiの利用やコピー・アンド・ペーストを用いてArchLinuxのインストールが可能です。
+追加アプリケーションの一覧
+linux-lts,ntp,otf-ipafont,alsa-utils,pulseaudio,pulseaudio-jack,pulseaudio-bluetooth,bluez,bluez-utils,xorg-server,xorg-xinit,openbox,lxrandr,xdotool,xcompmgr,zenity,i3lock,tint2,volumeicon,network-manager-applet,fcitx5-im,fcitx5-mozc,firefox,netsurf,qterminal,vi,conky,nitrogen,vinagre,virt-viewer
+自分で作りたい。
+Archisoを使えば簡単に作る事ができます。AlchgLinuxを自分の環境で作りたいと言う事であればこのスクリプトをArchLinuxで使えば実行するだけで（今の所）可能です。
+Keep It Simple, Stupid.
+シンプルであることはAlchgLinuxには重要なことです。AlchgLinuxは変更点を最低限度の自動化と設定に留めたいと考えています。</description>
+    </item>
+    
+    <item>
+      <title>利用手順</title>
+      <link>https://alchg.github.io/alchglinux/howtouse/</link>
+      <pubDate>Sun, 30 Jul 2023 15:37:55 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/alchglinux/howtouse/</guid>
+      <description>ファイルの検証
+必要に応じてダウンロードしたisoファイルが正しいことを検証してください。
+linuxであればsha256sumなど、windowsであれば7-Zipなどが利用可能です。
+起動ディスク作成（DVD）
+isoファイルをDVDに書き込みます。
+linuxであればBraseroなど、windowsであればisoファイルを右クリックして、ディスクイメージの書き込みをクリックします。
+起動ディスク作成（USBメモリ）
+isoファイルをUSBメモリに書き込みます。
+linuxであればddコマンドなど、windowsであればRufusなどが利用可能です。
+起動
+注意点としてセキュアブートには対応していない為、無効に設定しておく必要があります。</description>
+    </item>
+    
+    <item>
+      <title>プロモーション</title>
+      <link>https://alchg.github.io/alchglinux/promotion/</link>
+      <pubDate>Sun, 30 Jul 2023 14:32:12 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/alchglinux/promotion/</guid>
+      <description>デスクトップ
+動画
+起動からシャットダウン
+https://www.youtube.com/watch?v=TQmHpckFZ1o Stable Diffusionの実行
+https://www.youtube.com/watch?v=nywC5zFoHqY&amp;amp;t=4s </description>
+    </item>
+    
+    <item>
+      <title>システム要件</title>
+      <link>https://alchg.github.io/alchglinux/requirement/</link>
+      <pubDate>Sun, 30 Jul 2023 14:24:35 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/alchglinux/requirement/</guid>
+      <description>CPU 64bit
+x86-64をサポートしたCPUが必要です。 RAM 1GB
+1GBのRAMが必要です。 起動ディスク
+DVDやUSBメモリなどのブータブルディスクが必要です。 </description>
+    </item>
+    
+    <item>
+      <title>主な機能</title>
+      <link>https://alchg.github.io/alchglinux/feature/</link>
+      <pubDate>Sun, 30 Jul 2023 13:35:10 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/alchglinux/feature/</guid>
+      <description>
+いつでも、どこでも
+AlchgLinuxは場所を選びません。DVD、USBメモリから起動し、ネットカフェや友人宅から作業ができます。インターネット環境を利用することで、さらに多くの作業が可能です。 安全性
+DVDから起動する場合はディスクを改竄されることはありません。また使用したファイルはシステムの終了時に消去されるため、個人情報を残しません。 障害発生時のレスキューとして
+AlchgLinuxは最小限のデスクトップ環境を提供しますが、ArchLinuxインストールディスクをベースとしており、多くのCUIアプリケーションを利用可能です。 </description>
+    </item>
+    
+    <item>
       <title>ダウンロード</title>
       <link>https://alchg.github.io/alchglinux/download/</link>
       <pubDate>Fri, 28 Jul 2023 16:31:37 +0900</pubDate>
       
       <guid>https://alchg.github.io/alchglinux/download/</guid>
-      <description> GitHubからISOファイルとsha256sum.txtをダウンロード可能です。 </description>
+      <description>GitHubからISOファイルとsha256sum.txtをダウンロード可能です。
+通常版ダウンロード 32bitベータ版ダウンロード </description>
     </item>
     
   </channel>

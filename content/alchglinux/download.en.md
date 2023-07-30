@@ -7,4 +7,8 @@ main_menu_order: 0
 menu_order: 10
 description: "Alchg Linux Download Page"
 ---
-- ISO file and sha256sum.txt can be [downloaded](https://github.com/alchg/AlchgLinux/releases/tag/latest) from GitHub.  
+ISO file and sha256sum.txt can be downloaded from GitHub.  
+- [Download](https://github.com/alchg/AlchgLinux/releases/tag/latest)  
+- [32bit Beta Download](https://github.com/alchg/AlchgLinux32/releases/tag/latest)   
+
+
