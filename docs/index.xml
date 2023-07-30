@@ -133,6 +133,18 @@ oAuth認証に対応 自動終了機能 読上げ数の変更機能 GooglePlay�
     </item>
     
     <item>
+      <title>Vehicle Antitheft</title>
+      <link>https://alchg.github.io/vehicle-antitheft-free/</link>
+      <pubDate>Thu, 18 May 2023 11:32:16 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/vehicle-antitheft-free/</guid>
+      <description>自動車バイク向けのセキュリティアプリの無償版です。使わなくなったスマホの再利用に向いてます。
+Android 5.0〜11.0
+振動検知によるアクションに対応 振動レベルの自動設定マニュアル設定に対応 ご自身で用意したサウンドによるアラームに対応 Bluetoothを利用した所有者確認に対応 GPSによるトラッキングに対応（Googleの機能です） 専用ページに移動
+プライバシーポリシー</description>
+    </item>
+    
+    <item>
       <title>シンプルリマインダー</title>
       <link>https://alchg.github.io/simplereminder/</link>
       <pubDate>Thu, 18 May 2023 11:32:16 +0900</pubDate>
@@ -154,7 +166,8 @@ Android 5.0〜11.0
       <pubDate>Wed, 26 Apr 2023 12:52:06 +0900</pubDate>
       
       <guid>https://alchg.github.io/history/</guid>
-      <description> 2023/07/29
+      <description> 2023/07/30
+Androidアプリ「Vehicle Antitheft」のページを作成 2023/07/29
 自作OSのページを作成 ゲームボーイエミュレータ自作のページを作成 3Dプリンタ関連のページを作成 2023/07/28
 Linuxディストリビューション「Alchg Linux」のページを作成 2023/07/03
 Androidアプリ「Tweety Shantak」のページを作成 2023/05/18
