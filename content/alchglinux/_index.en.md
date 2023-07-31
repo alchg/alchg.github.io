@@ -5,7 +5,7 @@ draft: false
 main_menu: true
 main_menu_order: 0
 menu_order: 10
-description: "Alchg Linux Top Page"
+description: "Simple and lightweight Linux live distribution"
 ---
 # Welcome to the Alchg Linux page!  
 [Simple and lightweight Linux live distribution]

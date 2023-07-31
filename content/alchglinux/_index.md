@@ -5,7 +5,7 @@ draft: false
 main_menu: true
 main_menu_order: 70
 menu_order: 10
-description: "Alchg Linuxトップページ"
+description: "シンプルで軽量なLinuxライブディストリビューション"
 ---
 # Alchg Linuxのページへようこそ  
 「シンプルで軽量なLinuxライブディストリビューション」  
