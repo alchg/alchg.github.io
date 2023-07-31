@@ -8,7 +8,7 @@ menu_order: 30
 description: "Alchg Linuxのデスクトップなどです。"
 ---
 デスクトップ  
-![デスクトップ](http://localhost:1313/image/2023-07-30-desktop.png)  
+![デスクトップ](/image/2023-07-30-desktop.png)  
 
 動画
 - 起動からシャットダウン  

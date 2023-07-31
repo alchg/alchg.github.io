@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://alchg.github.io/en/</loc>
-    <lastmod>2023-07-28T16:31:37+09:00</lastmod>
+    <lastmod>2023-07-30T16:06:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -13,6 +13,84 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://alchg.github.io/en/"
+                />
+  </url><url>
+    <loc>https://alchg.github.io/en/alchglinux/readme/</loc>
+    <lastmod>2023-07-30T16:06:27+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://alchg.github.io/alchglinux/readme/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://alchg.github.io/en/alchglinux/readme/"
+                />
+  </url><url>
+    <loc>https://alchg.github.io/en/alchglinux/other/</loc>
+    <lastmod>2023-07-30T15:54:30+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://alchg.github.io/alchglinux/other/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://alchg.github.io/en/alchglinux/other/"
+                />
+  </url><url>
+    <loc>https://alchg.github.io/en/alchglinux/howtouse/</loc>
+    <lastmod>2023-07-30T15:37:55+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://alchg.github.io/alchglinux/howtouse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://alchg.github.io/en/alchglinux/howtouse/"
+                />
+  </url><url>
+    <loc>https://alchg.github.io/en/alchglinux/promotion/</loc>
+    <lastmod>2023-07-30T14:32:12+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://alchg.github.io/alchglinux/promotion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://alchg.github.io/en/alchglinux/promotion/"
+                />
+  </url><url>
+    <loc>https://alchg.github.io/en/alchglinux/requirement/</loc>
+    <lastmod>2023-07-30T14:24:35+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://alchg.github.io/alchglinux/requirement/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://alchg.github.io/en/alchglinux/requirement/"
+                />
+  </url><url>
+    <loc>https://alchg.github.io/en/alchglinux/feature/</loc>
+    <lastmod>2023-07-30T13:35:10+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://alchg.github.io/alchglinux/feature/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://alchg.github.io/en/alchglinux/feature/"
                 />
   </url><url>
     <loc>https://alchg.github.io/en/alchglinux/download/</loc>

@@ -3,7 +3,7 @@ title: "シンプルリマインダー"
 date: 2023-05-18T11:32:16+09:00
 draft: false
 main_menu: true
-main_menu_order: 10
+main_menu_order: 12
 description: "単純で簡単な操作を重視して作られたリマインダーです。"
 ---
 ![top](/image/2023-05-18-SR.png)  

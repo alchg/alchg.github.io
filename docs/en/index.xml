@@ -6,7 +6,86 @@
     <description>Recent content on Alchg Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 28 Jul 2023 16:31:37 +0900</lastBuildDate><atom:link href="https://alchg.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jul 2023 16:06:27 +0900</lastBuildDate><atom:link href="https://alchg.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ReadMe</title>
+      <link>https://alchg.github.io/en/alchglinux/readme/</link>
+      <pubDate>Sun, 30 Jul 2023 16:06:27 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/en/alchglinux/readme/</guid>
+      <description>Useful Tips Commands
+Switch to super user (password is root) : su Application Search : pacman -Ssy firefox web browser Application Installation : pacman -Sy firefox Notes
+General Application List Ability to switch desktops with the mouse wheel, for example, on the taskbar. Ability to switch desktops by holding down two taps and dragging up and down. Ability to right-click or wheel-click with 2 or 3 taps. RAM disk space dynamically increases when RAM exceeds 2 GiB.</description>
+    </item>
+    
+    <item>
+      <title>More information</title>
+      <link>https://alchg.github.io/en/alchglinux/other/</link>
+      <pubDate>Sun, 30 Jul 2023 15:54:30 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/en/alchglinux/other/</guid>
+      <description>About Manual
+Please refer to ArchWiki, where all information about ArchLinux is available, since AlchgLinux is also ArchLinux itself.README has basic information.
+Booting from a DVD or USB flash drive.
+As with ArchLinux, it can boot in UEFI and BIOS mode.Please refer to ArchWiki for details.
+Program modification does not exist.
+AlchgLinux is based on ArchLinux, but no program changes exist.It also does not contain any private programs.
+Differences from ArchLinux</description>
+    </item>
+    
+    <item>
+      <title>How to use</title>
+      <link>https://alchg.github.io/en/alchglinux/howtouse/</link>
+      <pubDate>Sun, 30 Jul 2023 15:37:55 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/en/alchglinux/howtouse/</guid>
+      <description>File Verification
+If necessary, verify that the downloaded iso file is correct.
+For linux, you can use sha256sum, etc. For windows, you can use 7-Zip, etc.
+Bootable disc creation (DVD)
+Burn the iso file to DVD.
+For linux, e.g. Brasero, or for windows, right click on the iso file and click on burn disc image.
+Live USB creation (USB flash drive)
+Write the iso file to a USB flash drive.</description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>https://alchg.github.io/en/alchglinux/promotion/</link>
+      <pubDate>Sun, 30 Jul 2023 14:32:12 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/en/alchglinux/promotion/</guid>
+      <description>Desktop
+Video
+Boot and shutdown
+https://youtu.be/ggy9TT6A-po Stable Diffusion
+https://youtu.be/7eK2pxw55_w </description>
+    </item>
+    
+    <item>
+      <title>System Requirement</title>
+      <link>https://alchg.github.io/en/alchglinux/requirement/</link>
+      <pubDate>Sun, 30 Jul 2023 14:24:35 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/en/alchglinux/requirement/</guid>
+      <description>CPU 64bit
+CPU supporting x86-64 is required. RAM 1GB
+1GB of RAM is required. Bootable disc
+A bootable disc such as a DVD or USB memory stick is required. </description>
+    </item>
+    
+    <item>
+      <title>Main Features</title>
+      <link>https://alchg.github.io/en/alchglinux/feature/</link>
+      <pubDate>Sun, 30 Jul 2023 13:35:10 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/en/alchglinux/feature/</guid>
+      <description>Anytime, anywhere.
+AlchgLinux is location-agnostic.You can boot from a DVD or USB stick and work from an Internet cafe or a friend&amp;rsquo;s house.With an Internet connection, even more work can be done. Safety
+When booting from a DVD, there is no disc tampering.Also, used files are erased when the system is closed, so no personal information is left behind. As a rescue in case of failure.
+AlchgLinux provides a minimal desktop environment, but it is based on the ArchLinux installation disk and many CUI applications are available.</description>
+    </item>
+    
     <item>
       <title>Download</title>
       <link>https://alchg.github.io/en/alchglinux/download/</link>
