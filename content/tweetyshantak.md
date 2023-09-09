@@ -13,6 +13,7 @@ Android 5.0〜11.0
 - 自動終了機能  
 - 読上げ数の変更機能  
 
+※現在TwitterXのAPI仕様変更に伴い公開停止中
 [GooglePlayのアプリページに移動](https://play.google.com/store/apps/details?id=com.alchg.tweetyshantaktrial)  
 
 # プライバシーポリシー(Privacy Policy)  
