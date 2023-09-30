@@ -8,7 +8,7 @@ description: "単純で簡単な操作を重視して作られたリマインダ
 ---
 ![top](/image/2023-05-18-SR.png)  
 単純で簡単な操作を重視して作られたリマインダーです。  
-Android 5.0〜11.0  
+Android 5.0〜13.0  
 - サウンドや振動による通知に対応  
 - 次のタスクを表示するウィジェット  
 - 様々な繰り返しオプション  
@@ -27,4 +27,8 @@ Android 5.0〜11.0
 - 起動(Startup)  
 	- 再起動による通知機能の無効化を防ぐ為に使用しています。  
 	- This is used to prevent reboot from disabling the notification function.  
+
+- 通知(Notification)  
+	- 予定の通知に使用しています。  
+	- Used for schedule notifications.  
 
