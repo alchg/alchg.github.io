@@ -55,6 +55,31 @@
     </item>
     
     <item>
+      <title>Raspberry Pi PicoでMML Playerを作ってみた</title>
+      <link>https://alchg.github.io/blog/raspberry-pi-pico%E3%81%A7mml-player%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <pubDate>Fri, 01 Dec 2023 14:36:34 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/blog/raspberry-pi-pico%E3%81%A7mml-player%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;まずはじめに&lt;br&gt;
+Raspberry Pi PicoにはPWMという電流を制御する機能が備わっているので、これを用いてスピーカーを振動させて音を出しています。&lt;br&gt;
+また、あまり費用をかけずに作ることを目的としていますので最小限度で構成されています。&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Pico MML Player</title>
+      <link>https://alchg.github.io/raspberry-pi-pico-mml-player/</link>
+      <pubDate>Fri, 01 Dec 2023 13:21:23 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/raspberry-pi-pico-mml-player/</guid>
+      <description>Raspberry Pi PicoをMMLプレイヤーにしてみました。
+主な機能
+マルチトラックに対応 設定ファイルで音色変更可能 FM音源（調整中） デモ動画
+プログラム</description>
+    </item>
+    
+    <item>
       <title>ReadMe</title>
       <link>https://alchg.github.io/alchglinux/readme/</link>
       <pubDate>Sun, 30 Jul 2023 16:06:27 +0900</pubDate>
@@ -261,7 +286,8 @@ Android 5.0〜13.0
       <pubDate>Wed, 26 Apr 2023 12:52:06 +0900</pubDate>
       
       <guid>https://alchg.github.io/history/</guid>
-      <description> 2023/07/30
+      <description> 2023/12/01
+Raspberry Pi Pico MML Playerのページを作成 2023/07/30
 Androidアプリ「Vehicle Antitheft」のページを作成 2023/07/29
 自作OSのページを作成 ゲームボーイエミュレータ自作のページを作成 3Dプリンタ関連のページを作成 2023/07/28
 Linuxディストリビューション「Alchg Linux」のページを作成 2023/07/03

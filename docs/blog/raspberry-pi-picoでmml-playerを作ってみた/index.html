@@ -3,11 +3,11 @@
 	<meta charset="UTF-8">
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@marimo_linux" />
-	<meta property="og:title" content="ArchLinuxでRaspberry Pi PicoをArduino IDEから使う" />
-	<meta property="og:description" content="ArchLinuxでラズピコをArduinoIDEするメモ" />
+	<meta property="og:title" content="Raspberry Pi PicoでMML Playerを作ってみた" />
+	<meta property="og:description" content="Raspberry Pi PicoでのMMLプレイヤー制作のまとめです。" />
 	<meta property="og:image" content="https://alchg.github.io/twitter.png" />
-	<meta property="og:url" content="https://alchg.github.io/blog/archlinux%E3%81%A7raspberry-pi-pico%E3%82%92arduino-ide%E3%81%8B%E3%82%89%E4%BD%BF%E3%81%86/" />
-	<title>ArchLinuxでRaspberry Pi PicoをArduino IDEから使う</title>
+	<meta property="og:url" content="https://alchg.github.io/blog/raspberry-pi-pico%E3%81%A7mml-player%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/" />
+	<title>Raspberry Pi PicoでMML Playerを作ってみた</title>
 	<link rel="icon" href="/favicon.ico">
 	
 	
@@ -38,72 +38,52 @@
 <div id="main">
                 <div id="content">
 			<div class="content_text">
-                        	<h1>ArchLinuxでRaspberry Pi PicoをArduino IDEから使う</h1>
+                        	<h1>Raspberry Pi PicoでMML Playerを作ってみた</h1>
                         	<ol>
-<li>まずはじめに
-<ul>
-<li>ArchLinuxのGUI環境は構築済みであること</li>
-<li>Raspberry Pi Picoを使用する</li>
-<li>1.x系のArduinoIDEを使用する</li>
-<li>Raspberry Pi Pico/RP2040を使用する</li>
-<li>Lチカまでやる</li>
-</ul>
-</li>
+<li>まずはじめに<br>
+Raspberry Pi PicoにはPWMという電流を制御する機能が備わっているので、これを用いてスピーカーを振動させて音を出しています。<br>
+また、あまり費用をかけずに作ることを目的としていますので最小限度で構成されています。</li>
 </ol>
 <ol start="2">
-<li>
-<p>インストール<br>
-<code>pacman -Sy arduino python udisks2</code></p>
-</li>
-<li>
-<p>シリアル通信に必要なのでユーザーをuucpグループに追加<br>
-<code>gpasswd -a user uucp</code></p>
-</li>
-<li>
-<p>再起動</p>
-</li>
-<li>
-<p>ArduinoIDE設定</p>
-<ol>
-<li>
-<p>メニューからFile&gt;Preferencesを選択</p>
-</li>
-<li>
-<p>Additional Boards Manager URLsにURLを追加する<br>
-<code>https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json</code></p>
-<p><img src="/image/2023-05-16-step02.png" alt="step2"></p>
-</li>
-<li>
-<p>メニューからTools&gt;Board&gt;Board Managerを選択</p>
-</li>
-<li>
-<p>Raspberry Pi Pico/RP2040をインストール<br>
-<img src="/image/2023-05-16-step04.png" alt="step4"></p>
-</li>
-<li>
-<p>ArduinoIDEを再起動</p>
-</li>
-<li>
-<p>メニューからFile&gt;Examples&gt;01.Basics&gt;Blinkを選択</p>
-</li>
-<li>
-<p>ブートセルボタンを押しながらRaspberryPiPicoを接続</p>
-</li>
-<li>
-<p>メニューからTools&gt;BoardがRaspberryPiPicoになってることを確認</p>
-</li>
-<li>
-<p>メニューからTools&gt;Port&gt;UF2 Boardを選択</p>
-</li>
-<li>
-<p>サンプルプログラムをアップロード<br>
-Lチカが始まります</p>
-</li>
-<li>
-<p>備考<br>
-次回以降のアップロードはPortに<code>/dev/ttyACM0(Raspberry Pi Pico)</code>等を選択します。</p>
-</li>
+<li>必要な部品</li>
 </ol>
+<ul>
+<li>
+<p>Raspberry Pi Pico<br>
+<img src="/image/2023-12-01-raspberrypipico.png" alt="Raspberry Pi Pico"><br>
+※画像はRaspberry Pi Pico Wです。</p>
+</li>
+<li>
+<p>モノラルイヤホンジャック<br>
+<img src="/image/2023-12-01-audiojack.png" alt="モノラルイヤホンジャック"><br>
+Amazonでも購入できます。</p>
+</li>
+<li>
+<p>ダイソーの３００円スピーカー<br>
+<img src="/image/2023-12-01-speaker.png" alt="ダイソーの３００円スピーカー"><br>
+ダイソーで買えます。</p>
+</li>
+<li>
+<p>加えて配線類です。ブレッドボードとジャンプワイヤを使いましたが、ワニ口クリップでも良いと思います。</p>
+</li>
+</ul>
+<ol start="2">
+<li>
+<p>手順<br>
+1. ArduinoIDEで<a href="https://github.com/alchg/RP2040_MML_Player">RP2040_MML_PLAYER.ino</a>をファイルシステム付きでアップロードする。<br>
+2. PicoLittleFS-0.2.0などで<a href="https://github.com/alchg/RP2040_MML_Player">data</a>フォルダの中身をアップロードする。<br>
+ご自身で用意したMMLを上書きすることもできます。<br>
+3. GPIO 0とGNDをイヤホンなどに接続すると演奏が聞こえます。<br>
+今回はモノラルイヤホンジャックを使いました。</p>
+</li>
+<li>
+<p>実演<br>
+<a href="https://youtu.be/bq-LyPG--Lk">https://youtu.be/bq-LyPG&ndash;Lk</a></p>
+</li>
+<li>
+<p>終りに<br>
+PWMを使った音の出し方などは参考ページが他にありますので検索をご利用ください。<br>
+またMMLは自分自身で打ち込んだものなので著作権は放棄していません。基本的に使用フリーですがご注意ください。</p>
 </li>
 </ol>
 			</div>

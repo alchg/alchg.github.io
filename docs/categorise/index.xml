@@ -6,7 +6,16 @@
     <description>Recent content in Categorise on Alchg Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 29 Jul 2023 14:49:57 +0900</lastBuildDate><atom:link href="https://alchg.github.io/categorise/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Dec 2023 14:36:34 +0900</lastBuildDate><atom:link href="https://alchg.github.io/categorise/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>プログラミング</title>
+      <link>https://alchg.github.io/categorise/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</link>
+      <pubDate>Fri, 01 Dec 2023 14:36:34 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/categorise/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>PD</title>
       <link>https://alchg.github.io/categorise/pd/</link>
@@ -22,15 +31,6 @@
       <pubDate>Tue, 16 May 2023 11:44:33 +0900</pubDate>
       
       <guid>https://alchg.github.io/categorise/archlinux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>プログラミング</title>
-      <link>https://alchg.github.io/categorise/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</link>
-      <pubDate>Sun, 07 May 2023 06:18:19 +0900</pubDate>
-      
-      <guid>https://alchg.github.io/categorise/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</guid>
       <description></description>
     </item>
     
