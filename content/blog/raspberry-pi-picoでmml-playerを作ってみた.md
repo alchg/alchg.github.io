@@ -32,7 +32,7 @@ Amazonでも購入できます。
         1. ArduinoIDEで[RP2040_MML_PLAYER.ino](https://github.com/alchg/RP2040_MML_Player)をファイルシステム付きでアップロードする。  
         2. PicoLittleFS-0.2.0などで[data](https://github.com/alchg/RP2040_MML_Player)フォルダの中身をアップロードする。  
         ご自身で用意したMMLを上書きすることもできます。  
-        3. GPIO 0とGNDをイヤフォンなどに接続すると演奏が聞こえます。  
+        3. GPIO 0とGNDをイヤホンなどに接続すると演奏が聞こえます。  
         今回はモノラルイヤホンジャックを使いました。  
 
 3. 実演  
