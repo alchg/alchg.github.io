@@ -3,7 +3,7 @@ title: "ゲームボーイエミュレータ自作"
 date: 2023-07-29T20:37:04+09:00
 draft: false
 main_menu: true
-main_menu_order: 40
+main_menu_order: 60
 description: ""
 ---
 ![ゲーム画面](/image/2023-07-29-gbemu.png)  

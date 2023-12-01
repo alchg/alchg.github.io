@@ -3,7 +3,7 @@ title: "自作OS"
 date: 2023-07-29T20:06:59+09:00
 draft: false
 main_menu: true
-main_menu_order: 50
+main_menu_order: 70
 description: "0から作る自作OSです"
 ---
 OSを0から自作する  

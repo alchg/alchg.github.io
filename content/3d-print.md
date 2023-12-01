@@ -3,7 +3,7 @@ title: "3Dプリンタ関連"
 date: 2023-07-29T20:20:01+09:00
 draft: false
 main_menu: true
-main_menu_order: 20
+main_menu_order: 50
 description: ""
 ---
 設計モデリングした3Dデータを公開しています。  
