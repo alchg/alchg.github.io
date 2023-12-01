@@ -15,5 +15,6 @@ Android 5.0〜11.0
 - Bluetoothを利用した本人確認に対応  
 - GPSによるトラッキングに対応（Googleの機能です）  
 
+[デモ動画](https://youtu.be/dp_q1i9M4uA)  
 [専用ページに移動](https://sites.google.com/view/vehicle-antitheft/)  
 [プライバシーポリシー](https://sites.google.com/view/vehicle-antitheft/privacy-policy/)  
