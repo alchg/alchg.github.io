@@ -75,7 +75,7 @@ Raspberry Pi PicoにはPWMという電流を制御する機能が備わってい
       <guid>https://alchg.github.io/raspberry-pi-pico-mml-player/</guid>
       <description>Raspberry Pi PicoをMMLプレイヤーにしてみました。
 主な機能
-マルチトラックに対応 設定ファイルで音色変更可能 FM音源（調整中） デモ動画
+マルチトラックに対応 設定ファイルで音色変更可能 FM音源 デモ動画
 プログラム</description>
     </item>
     

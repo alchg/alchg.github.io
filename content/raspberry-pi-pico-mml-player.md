@@ -12,7 +12,7 @@ Raspberry Pi PicoをMMLプレイヤーにしてみました。
 主な機能  
 - マルチトラックに対応  
 - 設定ファイルで音色変更可能  
-- FM音源（調整中）  
+- FM音源
 
 [デモ動画](https://youtu.be/bq-LyPG--Lk)  
 [プログラム](https://github.com/alchg/RP2040_MML_Player)  
