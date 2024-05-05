@@ -55,6 +55,22 @@
     </item>
     
     <item>
+      <title>ArduinoIDEでpico/sleep.hを使う</title>
+      <link>https://alchg.github.io/blog/arduino-ide%E3%81%A7pico-sleep/</link>
+      <pubDate>Mon, 06 May 2024 04:58:23 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/blog/arduino-ide%E3%81%A7pico-sleep/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;まずはじめに&lt;br&gt;
+- ArduinoIDEのRaspberryPiPico環境は構築済みであること&lt;br&gt;
+- Raspberry Pi Pico Wを使用する&lt;br&gt;
+- 1.x系のArduinoIDEを使用する&lt;br&gt;
+- Raspberry Pi Pico/RP2040を使用する&lt;br&gt;
+- dormantモード移行までやる&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
       <title>Raspberry Pi PicoでMML Playerを作ってみた</title>
       <link>https://alchg.github.io/blog/raspberry-pi-pico%E3%81%A7mml-player%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Fri, 01 Dec 2023 14:36:34 +0900</pubDate>

@@ -6,7 +6,7 @@
     <description>Recent content in Arduino on Alchg Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 16 May 2023 11:44:33 +0900</lastBuildDate><atom:link href="https://alchg.github.io/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 May 2024 04:58:23 +0900</lastBuildDate><atom:link href="https://alchg.github.io/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ArchLinuxでRaspberry Pi PicoをArduino IDEから使う</title>
       <link>https://alchg.github.io/blog/archlinux%E3%81%A7raspberry-pi-pico%E3%82%92arduino-ide%E3%81%8B%E3%82%89%E4%BD%BF%E3%81%86/</link>
@@ -23,6 +23,22 @@
 &lt;li&gt;Lチカまでやる&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>ArduinoIDEでpico/sleep.hを使う</title>
+      <link>https://alchg.github.io/blog/arduino-ide%E3%81%A7pico-sleep/</link>
+      <pubDate>Mon, 06 May 2024 04:58:23 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/blog/arduino-ide%E3%81%A7pico-sleep/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;まずはじめに&lt;br&gt;
+- ArduinoIDEのRaspberryPiPico環境は構築済みであること&lt;br&gt;
+- Raspberry Pi Pico Wを使用する&lt;br&gt;
+- 1.x系のArduinoIDEを使用する&lt;br&gt;
+- Raspberry Pi Pico/RP2040を使用する&lt;br&gt;
+- dormantモード移行までやる&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
     

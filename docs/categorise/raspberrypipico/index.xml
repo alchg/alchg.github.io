@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RaspberryPiPico on Alchg Projects</title>
+    <link>https://alchg.github.io/categorise/raspberrypipico/</link>
+    <description>Recent content in RaspberryPiPico on Alchg Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 06 May 2024 04:58:23 +0900</lastBuildDate><atom:link href="https://alchg.github.io/categorise/raspberrypipico/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ArduinoIDEでpico/sleep.hを使う</title>
+      <link>https://alchg.github.io/blog/arduino-ide%E3%81%A7pico-sleep/</link>
+      <pubDate>Mon, 06 May 2024 04:58:23 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/blog/arduino-ide%E3%81%A7pico-sleep/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;まずはじめに&lt;br&gt;
+- ArduinoIDEのRaspberryPiPico環境は構築済みであること&lt;br&gt;
+- Raspberry Pi Pico Wを使用する&lt;br&gt;
+- 1.x系のArduinoIDEを使用する&lt;br&gt;
+- Raspberry Pi Pico/RP2040を使用する&lt;br&gt;
+- dormantモード移行までやる&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

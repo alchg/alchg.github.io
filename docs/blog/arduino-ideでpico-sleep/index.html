@@ -3,11 +3,11 @@
 	<meta charset="UTF-8">
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@marimo_linux" />
-	<meta property="og:title" content="Pure Data拡張機能の導入" />
-	<meta property="og:description" content="PD Vanillaの拡張機能導入手順メモです。" />
+	<meta property="og:title" content="ArduinoIDEでpico/sleep.hを使う" />
+	<meta property="og:description" content="ArduinoIDEでpico/sleep.hを使うメモ" />
 	<meta property="og:image" content="https://alchg.github.io/twitter.png" />
-	<meta property="og:url" content="https://alchg.github.io/blog/pd%E3%81%AEvanilla%E3%81%A7%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E6%89%8B%E9%A0%86/" />
-	<title>Pure Data拡張機能の導入</title>
+	<meta property="og:url" content="https://alchg.github.io/blog/arduino-ide%E3%81%A7pico-sleep/" />
+	<title>ArduinoIDEでpico/sleep.hを使う</title>
 	<link rel="icon" href="/favicon.ico">
 	
 	
@@ -38,74 +38,59 @@
 <div id="main">
                 <div id="content">
 			<div class="content_text">
-                        	<h1>Pure Data拡張機能の導入</h1>
+                        	<h1>ArduinoIDEでpico/sleep.hを使う</h1>
                         	<ol>
-<li>まずはじめに
-<ul>
-<li>例としてcomportという拡張機能を導入します。</li>
-<li>Pure Data Vanillaを導入済みであることが前提です。</li>
-<li>環境はArch Linuxです。</li>
-</ul>
-</li>
+<li>まずはじめに<br>
+- ArduinoIDEのRaspberryPiPico環境は構築済みであること<br>
+- Raspberry Pi Pico Wを使用する<br>
+- 1.x系のArduinoIDEを使用する<br>
+- Raspberry Pi Pico/RP2040を使用する<br>
+- dormantモード移行までやる</li>
 </ol>
 <ol start="2">
 <li>
-<p>手順</p>
-<ol>
-<li>
-<p>helpメニューからFind externalsを選択<br>
-<img src="/image/2023-07-29-setp01.png" alt="step01"></p>
+<p>インストール<br>
+<code>pacman -Sy git cmake make</code></p>
 </li>
 <li>
-<p>comportと入力してSearchを選択<br>
-<img src="/image/2023-07-29-setp02.png" alt="step02"></p>
+<p>pico-extrasの導入<br>
+<code>cd ~/.aruino15/packages/rp2040/hardware/rp2040/X.X.X/</code><br>
+<code>./lib/platform_inc.txt</code>に<code>-iwithprefixbefore/pico-extras/src/rp2_common/pico_sleep/include</code>を追加<br>
+<code>git clone https://github.com/raspberrypi/pico-extras.git</code></p>
 </li>
 <li>
-<p>comportが表示されるので選択し、Installを選択<br>
-<img src="/image/2023-07-29-setp03.png" alt="step03"></p>
+<p>libpico.aの導入<br>
+<code>cd ~/</code><br>
+<code>git clone https://github.com/earlephilhower/arduino-pico.git</code><br>
+<code>cd ~/.aruino15/packages/rp2040/hardware/rp2040/X.X.X/</code><br>
+<code>cp -r ~/arduino-pico/package/ ./</code><br>
+<code>cd ./tools/</code><br>
+<code>python get.py</code><br>
+<code>cd ./libpico/</code><br>
+CMakeLists.txtに<code>pico_sleep</code>を追加（pico_stdlib辺り）<br>
+<code>chmod +x make-libpico.sh</code><br>
+<code>./make-libpico.sh</code><br>
+<code>cp ./build/libpico.a ../../lib/libpico.a</code></p>
 </li>
 <li>
-<p>インストール先フォルダを選択し、OKを選択<br>
-<img src="/image/2023-07-29-setp04.png" alt="step04"></p>
+<p>サンプルコード<br>
+<code>#include &quot;pico/sleep.h&quot;</code><br>
+<code>#define EDGE_PIN 10</code><br>
+<code>void setup(){</code><br>
+<code>	sleep_run_from_xosc();</code><br>
+<code>	sleep_goto_dormant_until_edge_high(EDGE_PIN);</code><br>
+<code>}</code><br>
+<code>void loop(){</code><br>
+<code>pinMode(LED_BUILTIN, OUTPUT);</code><br>
+<code>digitalWrite(LED_BUILTIN, HIGH);</code><br>
+<code>delay(1000);</code><br>
+<code>digitalWrite(LED_BUILTIN, LOW);</code><br>
+<code>delay(1000);</code><br>
+<code>}</code></p>
 </li>
 <li>
-<p>Yesを選択<br>
-<img src="/image/2023-07-29-setp05.png" alt="step05"></p>
-</li>
-<li>
-<p>FileメニューからEdit Preferencesを選択<br>
-<img src="/image/2023-07-29-setp06.png" alt="step06"></p>
-</li>
-<li>
-<p>Startupを選択、Newを選択、comportを入力しEnter、Applyを選択<br>
-<img src="/image/2023-07-29-setp07.png" alt="step07"></p>
-</li>
-<li>
-<p>Pathを選択し、Newを選択<br>
-<img src="/image/2023-07-29-setp08.png" alt="step08"></p>
-</li>
-<li>
-<p>拡張機能をインストールしたディレクトリを選択し、OKを選択<br>
-<img src="/image/2023-07-29-setp09.png" alt="step09"></p>
-</li>
-<li>
-<p>パスディレクトリを確認し、OKを選択<br>
-<img src="/image/2023-07-29-setp10.png" alt="step10"></p>
-</li>
-<li>
-<p>comportのオブジェクトが作成できることを確認<br>
-<img src="/image/2023-07-29-setp11.png" alt="step11"></p>
-</li>
-</ol>
-</li>
-<li>
-<p>備考</p>
-<ul>
-<li>
-<p>Arch Linuxでcomportを使う場合はユーザーにシリアル通信の為の権限が必要です。</p>
-<p>ユーザをuucpグループに追加する例：<code>gpasswd -a user uucp</code></p>
-</li>
-</ul>
+<p>備考<br>
+実用的にスリープモードを使用するにはクロックの復元など他の処理も必要</p>
 </li>
 </ol>
 			</div>
