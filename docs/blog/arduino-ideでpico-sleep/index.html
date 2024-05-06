@@ -54,7 +54,7 @@
 </li>
 <li>
 <p>pico-extrasの導入<br>
-<code>cd ~/.aruino15/packages/rp2040/hardware/rp2040/X.X.X/</code><br>
+<code>cd ~/.arduino15/packages/rp2040/hardware/rp2040/X.X.X/</code><br>
 <code>./lib/platform_inc.txt</code>に<code>-iwithprefixbefore/pico-extras/src/rp2_common/pico_sleep/include</code>を追加<br>
 <code>git clone https://github.com/raspberrypi/pico-extras.git</code></p>
 </li>
@@ -62,12 +62,13 @@
 <p>libpico.aの導入<br>
 <code>cd ~/</code><br>
 <code>git clone https://github.com/earlephilhower/arduino-pico.git</code><br>
-<code>cd ~/.aruino15/packages/rp2040/hardware/rp2040/X.X.X/</code><br>
+<code>cd ~/.arduino15/packages/rp2040/hardware/rp2040/X.X.X/</code><br>
 <code>cp -r ~/arduino-pico/package/ ./</code><br>
 <code>cd ./tools/</code><br>
 <code>python get.py</code><br>
 <code>cd ./libpico/</code><br>
-CMakeLists.txtに<code>pico_sleep</code>を追加（pico_stdlib辺り）<br>
+CMakeLists.txtに<code>include(../../pico-extras/external/pico_extras_import.cmake)</code>を追加（<code>include(pico_sdk_import.cmake)</code>の次など）<br>
+CMakeLists.txtに<code>pico_sleep</code>と<code>hardware_sleep</code>を追加（pico_stdlib辺り）<br>
 <code>chmod +x make-libpico.sh</code><br>
 <code>./make-libpico.sh</code><br>
 <code>cp ./build/libpico.a ../../lib/libpico.a</code></p>
@@ -77,15 +78,15 @@ CMakeLists.txtに<code>pico_sleep</code>を追加（pico_stdlib辺り）<br>
 <code>#include &quot;pico/sleep.h&quot;</code><br>
 <code>#define EDGE_PIN 10</code><br>
 <code>void setup(){</code><br>
-<code>	sleep_run_from_xosc();</code><br>
-<code>	sleep_goto_dormant_until_edge_high(EDGE_PIN);</code><br>
+<code>  sleep_run_from_xosc();</code><br>
+<code>  sleep_goto_dormant_until_edge_high(EDGE_PIN);</code><br>
 <code>}</code><br>
 <code>void loop(){</code><br>
-<code>pinMode(LED_BUILTIN, OUTPUT);</code><br>
-<code>digitalWrite(LED_BUILTIN, HIGH);</code><br>
-<code>delay(1000);</code><br>
-<code>digitalWrite(LED_BUILTIN, LOW);</code><br>
-<code>delay(1000);</code><br>
+<code>  pinMode(LED_BUILTIN, OUTPUT);</code><br>
+<code>  digitalWrite(LED_BUILTIN, HIGH);</code><br>
+<code>  delay(1000);</code><br>
+<code>  digitalWrite(LED_BUILTIN, LOW);</code><br>
+<code>  delay(1000);</code><br>
 <code>}</code></p>
 </li>
 <li>
