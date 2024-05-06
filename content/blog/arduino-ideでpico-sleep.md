@@ -11,7 +11,7 @@ description: "ArduinoIDEでpico/sleep.hを使うメモ"
 ---
 1. まずはじめに  
         - ArduinoIDEのRaspberryPiPico環境は構築済みであること  
-        - Raspberry Pi Pico Wを使用する  
+        - Raspberry Pi Picoを使用する  
         - 1.x系のArduinoIDEを使用する  
         - Raspberry Pi Pico/RP2040を使用する  
         - dormantモード移行までやる  
@@ -43,6 +43,7 @@ description: "ArduinoIDEでpico/sleep.hを使うメモ"
 	`#include "pico/sleep.h"`  
 	`#define EDGE_PIN 10`  
 	`void setup(){`  
+	`  pinMode(EDGE_PIN, INPUT);`  
 	`  sleep_run_from_xosc();`  
 	`  sleep_goto_dormant_until_edge_high(EDGE_PIN);`  
 	`}`  
