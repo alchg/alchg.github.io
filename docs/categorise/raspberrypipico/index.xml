@@ -16,7 +16,7 @@
       <description>&lt;ol&gt;
 &lt;li&gt;まずはじめに&lt;br&gt;
 - ArduinoIDEのRaspberryPiPico環境は構築済みであること&lt;br&gt;
-- Raspberry Pi Pico Wを使用する&lt;br&gt;
+- Raspberry Pi Picoを使用する&lt;br&gt;
 - 1.x系のArduinoIDEを使用する&lt;br&gt;
 - Raspberry Pi Pico/RP2040を使用する&lt;br&gt;
 - dormantモード移行までやる&lt;/li&gt;

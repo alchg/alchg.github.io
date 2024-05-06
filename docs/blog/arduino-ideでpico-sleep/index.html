@@ -42,7 +42,7 @@
                         	<ol>
 <li>まずはじめに<br>
 - ArduinoIDEのRaspberryPiPico環境は構築済みであること<br>
-- Raspberry Pi Pico Wを使用する<br>
+- Raspberry Pi Picoを使用する<br>
 - 1.x系のArduinoIDEを使用する<br>
 - Raspberry Pi Pico/RP2040を使用する<br>
 - dormantモード移行までやる</li>
@@ -79,6 +79,7 @@ CMakeLists.txtに<code>pico_sleep</code>と<code>hardware_sleep</code>を追加�
 <code>#include &quot;pico/sleep.h&quot;</code><br>
 <code>#define EDGE_PIN 10</code><br>
 <code>void setup(){</code><br>
+<code>  pinMode(EDGE_PIN, INPUT);</code><br>
 <code>  sleep_run_from_xosc();</code><br>
 <code>  sleep_goto_dormant_until_edge_high(EDGE_PIN);</code><br>
 <code>}</code><br>
