@@ -29,7 +29,7 @@ description: "ArduinoIDEでpico/sleep.hを使うメモ"
         `git clone https://github.com/earlephilhower/arduino-pico.git`  
         `cd ~/.arduino15/packages/rp2040/hardware/rp2040/X.X.X/`  
         `cp -r ~/arduino-pico/package/ ./`  
-        ./pico-extras/src/rp2_common/pico_sleep/sleep.cの修正`setup_default_uart();`をコメントアウト
+        ./pico-extras/src/rp2_common/pico_sleep/sleep.cの修正`setup_default_uart();`をコメントアウト  
         `cd ./tools/`  
         `python get.py`  
         `cd ./libpico/`  
