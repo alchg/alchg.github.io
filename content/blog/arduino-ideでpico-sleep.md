@@ -43,12 +43,15 @@ description: "ArduinoIDEでpico/sleep.hを使うメモ"
 	`#include "pico/sleep.h"`  
 	`#define EDGE_PIN 10`  
 	`void setup(){`  
+	`  pinMode(LED_BUILTIN, OUTPUT);`  
+	`  digitalWrite(LED_BUILTIN, HIGH);`  
+	`  delay(15000);`  
+	`  digitalWrite(LED_BUILTIN, LOW);`  
 	`  pinMode(EDGE_PIN, INPUT);`  
 	`  sleep_run_from_xosc();`  
 	`  sleep_goto_dormant_until_edge_high(EDGE_PIN);`  
 	`}`  
 	`void loop(){`  
-	`  pinMode(LED_BUILTIN, OUTPUT);`  
 	`  digitalWrite(LED_BUILTIN, HIGH);`  
 	`  delay(1000);`  
 	`  digitalWrite(LED_BUILTIN, LOW);`  

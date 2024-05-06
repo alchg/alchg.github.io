@@ -79,12 +79,15 @@ CMakeLists.txtに<code>pico_sleep</code>と<code>hardware_sleep</code>を追加�
 <code>#include &quot;pico/sleep.h&quot;</code><br>
 <code>#define EDGE_PIN 10</code><br>
 <code>void setup(){</code><br>
+<code>  pinMode(LED_BUILTIN, OUTPUT);</code><br>
+<code>  digitalWrite(LED_BUILTIN, HIGH);</code><br>
+<code>  delay(15000);</code><br>
+<code>  digitalWrite(LED_BUILTIN, LOW);</code><br>
 <code>  pinMode(EDGE_PIN, INPUT);</code><br>
 <code>  sleep_run_from_xosc();</code><br>
 <code>  sleep_goto_dormant_until_edge_high(EDGE_PIN);</code><br>
 <code>}</code><br>
 <code>void loop(){</code><br>
-<code>  pinMode(LED_BUILTIN, OUTPUT);</code><br>
 <code>  digitalWrite(LED_BUILTIN, HIGH);</code><br>
 <code>  delay(1000);</code><br>
 <code>  digitalWrite(LED_BUILTIN, LOW);</code><br>
