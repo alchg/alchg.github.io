@@ -18,7 +18,7 @@ DefaultContentLanguage = "ja"
 
 
 [params]
-twitter_user = '@marimo_linux'
+x_user = '@marimo_linux'
 blog_title = '銀の棲家'
 
 [taxonomies]
