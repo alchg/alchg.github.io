@@ -17,4 +17,4 @@ description: "電子ペーパーとディープスリープを併用した長期
 - 単３乾電池３本USB電源（有線USB電源も可能）  
 - 連続動作３ヶ月以上（ニッケル水素充電池1950mAhによる）  
 
-[デモ動画](https://www.youtube.com/watch?v=AUWunUDCPlQ)  
+WS001電子ペーパーお天気ディスプレイ[デモ動画](https://www.youtube.com/watch?v=AUWunUDCPlQ)  
