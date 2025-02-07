@@ -6,6 +6,9 @@ main_menu: true
 main_menu_order: 99
 description: "サイト全体の更新履歴です。"
 ---
+- 2025/02/07  
+	- 乾電池式お天気ディスプレイのページを作成  
+
 - 2023/12/01  
 	- Raspberry Pi Pico MML Playerのページを作成  
 

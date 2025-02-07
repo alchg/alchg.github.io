@@ -55,6 +55,18 @@
     </item>
     
     <item>
+      <title>乾電池式お天気ディスプレイ</title>
+      <link>https://alchg.github.io/ws001-weather-display/</link>
+      <pubDate>Fri, 07 Feb 2025 18:47:47 +0900</pubDate>
+      
+      <guid>https://alchg.github.io/ws001-weather-display/</guid>
+      <description>ディスプレイに電子ペーパーを採用し、画面更新時以外はスリープモードに入ることによって長期間動作します。
+またこのガジェットはオープンソースとして公開しています。
+主な機能
+Bluetooth BLEを使用した初期設定 気象庁の提供JSONデータによる全国天気予報表示 一日４度の天気情報更新 単３乾電池３本USB電源（有線USB電源も可能） 連続動作３ヶ月以上（ニッケル水素充電池1950mAhによる） デモ動画</description>
+    </item>
+    
+    <item>
       <title>ArduinoIDEでpico/sleep.hを使う</title>
       <link>https://alchg.github.io/blog/arduino-ide%E3%81%A7pico-sleep/</link>
       <pubDate>Mon, 06 May 2024 04:58:23 +0900</pubDate>
@@ -302,7 +314,8 @@ Android 5.0〜13.0
       <pubDate>Wed, 26 Apr 2023 12:52:06 +0900</pubDate>
       
       <guid>https://alchg.github.io/history/</guid>
-      <description> 2023/12/01
+      <description> 2025/02/07
+乾電池式お天気ディスプレイのページを作成 2023/12/01
 Raspberry Pi Pico MML Playerのページを作成 2023/07/30
 Androidアプリ「Vehicle Antitheft」のページを作成 2023/07/29
 自作OSのページを作成 ゲームボーイエミュレータ自作のページを作成 3Dプリンタ関連のページを作成 2023/07/28
