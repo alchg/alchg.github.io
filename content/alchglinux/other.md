@@ -21,7 +21,7 @@ AlchgLinuxはArchLinuxのインストールディスクに対して最低限のG
 したがって、ArchWikiの利用やコピー・アンド・ペーストを用いてArchLinuxのインストールが可能です。  
 
 - 追加アプリケーションの一覧  
-linux-lts,ntp,otf-ipafont,alsa-utils,pulseaudio,pulseaudio-jack,pulseaudio-bluetooth,bluez,bluez-utils,xorg-server,xorg-xinit,openbox,lxrandr,xdotool,xcompmgr,zenity,i3lock,tint2,mate-media,mate-settings-daemon,network-manager-applet,fcitx5-im,fcitx5-mozc,firefox,netsurf,qterminal,vi,conky,nitrogen,vinagre,virt-viewer  
+linux-lts,ntp,otf-ipafont,alsa-utils,pulseaudio,pulseaudio-jack,pulseaudio-bluetooth,bluez,bluez-utils,xorg-server,xorg-xinit,openbox,lxrandr,xdotool,xcompmgr,zenity,i3lock,tint2,mate-media,mate-settings-daemon,network-manager-applet,fcitx5-im,fcitx5-mozc,firefox,netsurf,qterminal,vi,conky,feh,vinagre,virt-viewer  
 
 - 自分で作りたい。  
 Archisoを使えば簡単に作る事ができます。AlchgLinuxを自分の環境で作りたいと言う事であれば[このスクリプト](https://github.com/alchg/AlchgLinux/releases/download/latest/makeiso.sh)をArchLinuxで使えば実行するだけで（今の所）可能です。  

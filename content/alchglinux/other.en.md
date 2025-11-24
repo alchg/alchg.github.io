@@ -20,7 +20,7 @@ AlchgLinux is based on ArchLinux, but no program changes exist.It also does not 
 AlchgLinux is a minimal GUI environment built on an ArchLinux installation disc, with a web browser added.It is therefore possible to use the ArchWiki and to install ArchLinux using copy and paste.  
 
 - Additional Applications List  
-linux-lts,ntp,otf-ipafont,alsa-utils,pulseaudio,pulseaudio-jack,pulseaudio-bluetooth,bluez,bluez-utils,xorg-server,xorg-xinit,openbox,lxrandr,xdotool,xcompmgr,zenity,i3lock,tint2,mate-media,mate-settings-daemon,network-manager-applet,fcitx5-im,fcitx5-mozc,firefox,netsurf,qterminal,vi,conky,nitrogen,vinagre,virt-viewer  
+linux-lts,ntp,otf-ipafont,alsa-utils,pulseaudio,pulseaudio-jack,pulseaudio-bluetooth,bluez,bluez-utils,xorg-server,xorg-xinit,openbox,lxrandr,xdotool,xcompmgr,zenity,i3lock,tint2,mate-media,mate-settings-daemon,network-manager-applet,fcitx5-im,fcitx5-mozc,firefox,netsurf,qterminal,vi,conky,feh,vinagre,virt-viewer  
 
 - I want to make it myself.  
 Archiso makes it easy to create.If you want to create AlchgLinux in your own environment, you can simply run [this script](https://github.com/alchg/AlchgLinux/releases/download/latest/makeiso.sh) with ArchLinux (for now)  
