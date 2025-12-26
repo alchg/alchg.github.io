@@ -21,6 +21,5 @@ Notes
 - Ability to right-click or wheel-click with 2 or 3 taps.  
 - RAM disk space dynamically increases when RAM exceeds 2 GiB.  
 - If you use a web browser during ArchLinux installation, using NetSurf is less resource intensive.  
-- Remote desktop (Vinagre) can be terminated by clicking the center of the top edge of the screen and then Alt+F4 (OpenBox feature). Currently, the control widget that is supposed to be displayed is transparent.  
 
 
