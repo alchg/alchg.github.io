@@ -105,7 +105,7 @@ AlchgLinuxは最小限のデスクトップ環境を提供しますが、ArchLin
       
       <guid>https://alchg.github.io/alchglinux/download/</guid>
       <description>GitHubからISOファイルとsha256sum.txtをダウンロード可能です。
-通常版ダウンロード 32bitベータ版ダウンロード </description>
+通常版ダウンロード Wayland版ダウンロード 32bitベータ版ダウンロード </description>
     </item>
     
   </channel>

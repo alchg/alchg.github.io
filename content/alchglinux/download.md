@@ -9,4 +9,5 @@ description: "Alchg Linuxのダウンロードページです。"
 ---
 GitHubからISOファイルとsha256sum.txtをダウンロード可能です。  
 - [通常版ダウンロード](https://github.com/alchg/AlchgLinux/releases/tag/latest)  
+- [Wayland版ダウンロード](https://github.com/alchg/AlchgLinux/releases/latest)  
 - [32bitベータ版ダウンロード](https://github.com/alchg/AlchgLinux32/releases/tag/latest)  

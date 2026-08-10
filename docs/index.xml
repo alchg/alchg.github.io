@@ -257,7 +257,7 @@ RaspberryPi Zero W(H) ケース
       
       <guid>https://alchg.github.io/alchglinux/download/</guid>
       <description>GitHubからISOファイルとsha256sum.txtをダウンロード可能です。
-通常版ダウンロード 32bitベータ版ダウンロード </description>
+通常版ダウンロード Wayland版ダウンロード 32bitベータ版ダウンロード </description>
     </item>
     
     <item>

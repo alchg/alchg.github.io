@@ -9,6 +9,7 @@ description: "Alchg Linux Download Page"
 ---
 ISO file and sha256sum.txt can be downloaded from GitHub.  
 - [Download](https://github.com/alchg/AlchgLinux/releases/tag/latest)  
+- [Wayland Edition Download](https://github.com/alchg/AlchgLinux/releases/latest)  
 - [32bit Beta Download](https://github.com/alchg/AlchgLinux32/releases/tag/latest)   
 
 
