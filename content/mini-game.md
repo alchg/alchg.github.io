@@ -1,5 +1,5 @@
 ---
-title: "物件買収ミニゲーム"
+title: "物件買収ミニゲーム Trade War（トレードウォー）"
 date: 2026-10-21T18:42:18+09:00
 draft: false
 main_menu: true
