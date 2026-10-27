@@ -10,3 +10,4 @@ description: "物件買収ミニゲームです"
 物件を売買しながら自社を成長させていくゲームです。  
 
 [Webデモ版をプレイ](https://alchg.github.io/TradeWar.html)  
+[製品版](https://alchg.booth.pm/items/9054907)  
